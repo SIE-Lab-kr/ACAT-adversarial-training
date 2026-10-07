@@ -25,8 +25,7 @@ w_i = (1 - λ_t) · h_i^n + λ_t · b_i^n ,   loss = mean_i  w_i · [ (1-β) CE(
 | `results/cpu_study/` | Supplementary reduced-scale study (SmallCNN, 2 seeds), plus earlier smoke tests in `earlier_smoke_tests/` |
 | `results/tables/` | One CSV per figure/table and `ACAT_results_data.xlsx` (all results, with charts) |
 | `logs/` | Raw training / evaluation logs of both studies |
-| `figures/paper/` | Figures used in the manuscript |
-| `figures/gpu_study/`, `figures/cpu_study/` | All figures generated from the two studies |
+| `figures/` | All figures |
 
 Model checkpoints (8.4 GB) are not included; they are available from the authors on request.
 
@@ -54,7 +53,3 @@ python gpu/export_excel.py       # Excel workbook + CSVs
 
 Datasets are read from `~/.cache/torch` (CIFAR-10/100 and Fashion-MNIST via torchvision; Tiny-ImageNet from the
 official `tiny-imagenet-200.zip`, first 15 classes of `wnids.txt`).
-
-## Contact
-
-Jang-Eui Hong (corresponding author) — jehong@chungbuk.ac.kr
