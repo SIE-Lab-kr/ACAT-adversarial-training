@@ -1,0 +1,23 @@
+{
+  "n_examples": 150,
+  "correct": {
+    "clean": 114.0,
+    "fgsm": 103.0,
+    "pgd20": 102.0,
+    "apgd20": 102.0,
+    "cw_linf": 101.0,
+    "square_bbox": 111.0,
+    "transfer_bbox": 110.0
+  },
+  "accuracy": {
+    "clean": 0.76,
+    "fgsm": 0.6866666666666666,
+    "pgd20": 0.68,
+    "apgd20": 0.68,
+    "cw_linf": 0.6733333333333333,
+    "square_bbox": 0.74,
+    "transfer_bbox": 0.7333333333333333
+  },
+  "mean_robust_acc": 0.6988888888888889,
+  "MES": 0.7281645037673417
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pt
+results_gpu/
+logs_gpu/
+.ipynb_checkpoints/

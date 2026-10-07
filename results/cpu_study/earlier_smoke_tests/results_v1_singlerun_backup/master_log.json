@@ -1,0 +1,396 @@
+{
+  "started": "2026-09-04 09:34:13",
+  "runs": [
+    {
+      "dataset": "cifar10",
+      "method": "standard",
+      "phase": "train",
+      "elapsed_sec": 19.296371698379517,
+      "status": "ok",
+      "final_clean_acc": 0.3489583333333333,
+      "final_pgd10_acc": 0.015625
+    },
+    {
+      "dataset": "cifar10",
+      "method": "pgd_at",
+      "phase": "train",
+      "elapsed_sec": 43.45471239089966,
+      "status": "ok",
+      "final_clean_acc": 0.296875,
+      "final_pgd10_acc": 0.16666666666666666
+    },
+    {
+      "dataset": "cifar10",
+      "method": "trades",
+      "phase": "train",
+      "elapsed_sec": 46.64069056510925,
+      "status": "ok",
+      "final_clean_acc": 0.3177083333333333,
+      "final_pgd10_acc": 0.109375
+    },
+    {
+      "dataset": "cifar10",
+      "method": "mart",
+      "phase": "train",
+      "elapsed_sec": 38.83480787277222,
+      "status": "ok",
+      "final_clean_acc": 0.296875,
+      "final_pgd10_acc": 0.13541666666666666
+    },
+    {
+      "dataset": "cifar10",
+      "method": "acat",
+      "phase": "train",
+      "elapsed_sec": 40.93531155586243,
+      "status": "ok",
+      "final_clean_acc": 0.328125,
+      "final_pgd10_acc": 0.13541666666666666
+    },
+    {
+      "dataset": "cifar10",
+      "method": "standard",
+      "phase": "eval",
+      "elapsed_sec": 15.94381594657898,
+      "status": "ok",
+      "MES": 0.08527131559852179,
+      "accuracy": {
+        "clean": 0.3333333333333333,
+        "fgsm": 0.06,
+        "pgd20": 0.006666666666666667,
+        "apgd20": 0.013333333333333334,
+        "cw_linf": 0.02,
+        "square_bbox": 0.18666666666666668,
+        "transfer_bbox": 0.006666666666666667
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "pgd_at",
+      "phase": "eval",
+      "elapsed_sec": 15.489560842514038,
+      "status": "ok",
+      "MES": 0.19290322113943825,
+      "accuracy": {
+        "clean": 0.26,
+        "fgsm": 0.14,
+        "pgd20": 0.15333333333333332,
+        "apgd20": 0.14666666666666667,
+        "cw_linf": 0.07333333333333333,
+        "square_bbox": 0.2,
+        "transfer_bbox": 0.20666666666666667
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "trades",
+      "phase": "eval",
+      "elapsed_sec": 16.329049825668335,
+      "status": "ok",
+      "MES": 0.1680720679838326,
+      "accuracy": {
+        "clean": 0.29333333333333333,
+        "fgsm": 0.10666666666666667,
+        "pgd20": 0.08666666666666667,
+        "apgd20": 0.08666666666666667,
+        "cw_linf": 0.04,
+        "square_bbox": 0.2,
+        "transfer_bbox": 0.18666666666666668
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "mart",
+      "phase": "eval",
+      "elapsed_sec": 15.864198923110962,
+      "status": "ok",
+      "MES": 0.17595307453496284,
+      "accuracy": {
+        "clean": 0.24,
+        "fgsm": 0.12666666666666668,
+        "pgd20": 0.11333333333333333,
+        "apgd20": 0.12,
+        "cw_linf": 0.09333333333333334,
+        "square_bbox": 0.18666666666666668,
+        "transfer_bbox": 0.19333333333333333
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "acat",
+      "phase": "eval",
+      "elapsed_sec": 16.142645359039307,
+      "status": "ok",
+      "MES": 0.17123966517587608,
+      "accuracy": {
+        "clean": 0.28,
+        "fgsm": 0.12,
+        "pgd20": 0.11333333333333333,
+        "apgd20": 0.12,
+        "cw_linf": 0.08,
+        "square_bbox": 0.15333333333333332,
+        "transfer_bbox": 0.15333333333333332
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "standard",
+      "phase": "train",
+      "elapsed_sec": 11.652112007141113,
+      "status": "ok",
+      "final_clean_acc": 0.6458333333333334,
+      "final_pgd10_acc": 0.4375
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "pgd_at",
+      "phase": "train",
+      "elapsed_sec": 31.212132215499878,
+      "status": "ok",
+      "final_clean_acc": 0.6145833333333334,
+      "final_pgd10_acc": 0.5260416666666666
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "trades",
+      "phase": "train",
+      "elapsed_sec": 36.75323176383972,
+      "status": "ok",
+      "final_clean_acc": 0.625,
+      "final_pgd10_acc": 0.4895833333333333
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "mart",
+      "phase": "train",
+      "elapsed_sec": 35.24822807312012,
+      "status": "ok",
+      "final_clean_acc": 0.625,
+      "final_pgd10_acc": 0.5625
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "acat",
+      "phase": "train",
+      "elapsed_sec": 38.44553732872009,
+      "status": "ok",
+      "final_clean_acc": 0.59375,
+      "final_pgd10_acc": 0.46875
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "standard",
+      "phase": "eval",
+      "elapsed_sec": 13.168149709701538,
+      "status": "ok",
+      "MES": 0.5314923809305264,
+      "accuracy": {
+        "clean": 0.64,
+        "fgsm": 0.4666666666666667,
+        "pgd20": 0.44,
+        "apgd20": 0.43333333333333335,
+        "cw_linf": 0.42,
+        "square_bbox": 0.5266666666666666,
+        "transfer_bbox": 0.44
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "pgd_at",
+      "phase": "eval",
+      "elapsed_sec": 13.881357908248901,
+      "status": "ok",
+      "MES": 0.5810066427074457,
+      "accuracy": {
+        "clean": 0.6333333333333333,
+        "fgsm": 0.5266666666666666,
+        "pgd20": 0.5266666666666666,
+        "apgd20": 0.5266666666666666,
+        "cw_linf": 0.5133333333333333,
+        "square_bbox": 0.5666666666666667,
+        "transfer_bbox": 0.56
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "trades",
+      "phase": "eval",
+      "elapsed_sec": 14.128539800643921,
+      "status": "ok",
+      "MES": 0.5608993108034273,
+      "accuracy": {
+        "clean": 0.6333333333333333,
+        "fgsm": 0.5,
+        "pgd20": 0.4866666666666667,
+        "apgd20": 0.4866666666666667,
+        "cw_linf": 0.4533333333333333,
+        "square_bbox": 0.56,
+        "transfer_bbox": 0.5333333333333333
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "mart",
+      "phase": "eval",
+      "elapsed_sec": 13.912581443786621,
+      "status": "ok",
+      "MES": 0.5988148098246914,
+      "accuracy": {
+        "clean": 0.6266666666666667,
+        "fgsm": 0.5866666666666667,
+        "pgd20": 0.5733333333333334,
+        "apgd20": 0.5733333333333334,
+        "cw_linf": 0.5333333333333333,
+        "square_bbox": 0.5866666666666667,
+        "transfer_bbox": 0.5866666666666667
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "acat",
+      "phase": "eval",
+      "elapsed_sec": 13.682752847671509,
+      "status": "ok",
+      "MES": 0.523941294847514,
+      "accuracy": {
+        "clean": 0.5866666666666667,
+        "fgsm": 0.47333333333333333,
+        "pgd20": 0.4533333333333333,
+        "apgd20": 0.46,
+        "cw_linf": 0.43333333333333335,
+        "square_bbox": 0.52,
+        "transfer_bbox": 0.5
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "standard",
+      "phase": "train",
+      "elapsed_sec": 33.307109117507935,
+      "status": "ok",
+      "final_clean_acc": 0.28,
+      "final_pgd10_acc": 0.05
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "pgd_at",
+      "phase": "train",
+      "elapsed_sec": 77.35676169395447,
+      "status": "ok",
+      "final_clean_acc": 0.2,
+      "final_pgd10_acc": 0.06
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "trades",
+      "phase": "train",
+      "elapsed_sec": 82.5414776802063,
+      "status": "ok",
+      "final_clean_acc": 0.18,
+      "final_pgd10_acc": 0.06
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "mart",
+      "phase": "train",
+      "elapsed_sec": 80.78150653839111,
+      "status": "ok",
+      "final_clean_acc": 0.25,
+      "final_pgd10_acc": 0.05
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "acat",
+      "phase": "train",
+      "elapsed_sec": 83.12110877037048,
+      "status": "ok",
+      "final_clean_acc": 0.19,
+      "final_pgd10_acc": 0.06
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "standard",
+      "phase": "eval",
+      "elapsed_sec": 68.14476537704468,
+      "status": "ok",
+      "MES": 0.10107316777346825,
+      "accuracy": {
+        "clean": 0.28,
+        "fgsm": 0.07,
+        "pgd20": 0.05,
+        "apgd20": 0.06,
+        "cw_linf": 0.05,
+        "square_bbox": 0.09,
+        "transfer_bbox": 0.05
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "pgd_at",
+      "phase": "eval",
+      "elapsed_sec": 67.19703102111816,
+      "status": "ok",
+      "MES": 0.11428571020408178,
+      "accuracy": {
+        "clean": 0.2,
+        "fgsm": 0.09,
+        "pgd20": 0.06,
+        "apgd20": 0.06,
+        "cw_linf": 0.05,
+        "square_bbox": 0.12,
+        "transfer_bbox": 0.1
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "trades",
+      "phase": "eval",
+      "elapsed_sec": 68.74757528305054,
+      "status": "ok",
+      "MES": 0.10421052220221624,
+      "accuracy": {
+        "clean": 0.18,
+        "fgsm": 0.08,
+        "pgd20": 0.06,
+        "apgd20": 0.06,
+        "cw_linf": 0.05,
+        "square_bbox": 0.11,
+        "transfer_bbox": 0.08
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "mart",
+      "phase": "eval",
+      "elapsed_sec": 67.99351930618286,
+      "status": "ok",
+      "MES": 0.12121211753902673,
+      "accuracy": {
+        "clean": 0.25,
+        "fgsm": 0.09,
+        "pgd20": 0.05,
+        "apgd20": 0.05,
+        "cw_linf": 0.04,
+        "square_bbox": 0.14,
+        "transfer_bbox": 0.11
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "acat",
+      "phase": "eval",
+      "elapsed_sec": 67.1335220336914,
+      "status": "ok",
+      "MES": 0.11259258842249673,
+      "accuracy": {
+        "clean": 0.19,
+        "fgsm": 0.08,
+        "pgd20": 0.06,
+        "apgd20": 0.06,
+        "cw_linf": 0.03,
+        "square_bbox": 0.15,
+        "transfer_bbox": 0.1
+      }
+    }
+  ],
+  "finished": "2026-09-04 09:54:00"
+}

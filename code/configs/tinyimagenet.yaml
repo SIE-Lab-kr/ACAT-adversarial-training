@@ -1,0 +1,17 @@
+dataset: tinyimagenet
+backbone: resnet18
+num_classes: 200               # full benchmark; this session used a 15-class subset
+img_size: 64
+epochs: 90
+batch_size: 128
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 5e-4
+lr_schedule: multistep [60, 80] gamma=0.1
+train_eps: 8/255
+train_alpha: 2/255
+train_steps: 10
+eval:
+  attacks: [fgsm, pgd20, apgd20, cw_linf, square_bbox, transfer_bbox]
+  eps: 8/255

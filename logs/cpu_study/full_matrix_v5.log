@@ -1,0 +1,155 @@
+
+=== TRAIN surrogate (SmallCNN, standard, seed=123) ===
+    surrogate trained in 3.6s
+
+=== TRAIN cifar10 / standard / smallcnn ===
+    train done in 2.1s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / smallcnn ===
+    eval done in 6.2s clean=0.125 pgd20=0.083 cw_linf=0.083 MES=0.100
+
+=== TRAIN cifar10 / pgd_at / smallcnn ===
+    train done in 3.3s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / smallcnn ===
+    eval done in 5.7s clean=0.208 pgd20=0.083 cw_linf=0.042 MES=0.112
+
+=== TRAIN cifar10 / trades / smallcnn ===
+    train done in 3.6s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / smallcnn ===
+    eval done in 4.9s clean=0.208 pgd20=0.042 cw_linf=0.042 MES=0.126
+
+=== TRAIN cifar10 / mart / smallcnn ===
+    train done in 3.5s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / smallcnn ===
+    eval done in 5.4s clean=0.375 pgd20=0.042 cw_linf=0.042 MES=0.180
+
+=== TRAIN cifar10 / acat / smallcnn ===
+    train done in 4.0s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / smallcnn ===
+    eval done in 5.1s clean=0.333 pgd20=0.083 cw_linf=0.083 MES=0.182
+
+=== TRAIN cifar10 / standard / wrn28_10 ===
+    train done in 63.0s (n_params=36.479M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / wrn28_10 ===
+    eval done in 272.1s clean=0.125 pgd20=0.125 cw_linf=0.125 MES=0.125
+
+=== TRAIN cifar10 / pgd_at / wrn28_10 ===
+    train done in 131.1s (n_params=36.479M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / wrn28_10 ===
+    eval done in 267.4s clean=0.125 pgd20=0.083 cw_linf=0.083 MES=0.105
+
+=== TRAIN cifar10 / trades / wrn28_10 ===
+    train done in 171.0s (n_params=36.479M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / wrn28_10 ===
+    eval done in 268.8s clean=0.208 pgd20=0.000 cw_linf=0.000 MES=0.060
+
+=== TRAIN cifar10 / mart / wrn28_10 ===
+    train done in 167.4s (n_params=36.479M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / wrn28_10 ===
+    eval done in 290.4s clean=0.292 pgd20=0.042 cw_linf=0.042 MES=0.161
+
+=== TRAIN cifar10 / acat / wrn28_10 ===
+    train done in 174.9s (n_params=36.479M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / wrn28_10 ===
+    eval done in 274.7s clean=0.125 pgd20=0.042 cw_linf=0.042 MES=0.077
+
+=== TRAIN cifar10 / standard / resnet18 ===
+    train done in 12.2s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / resnet18 ===
+    eval done in 40.7s clean=0.125 pgd20=0.000 cw_linf=0.000 MES=0.025
+
+=== TRAIN cifar10 / pgd_at / resnet18 ===
+    train done in 24.8s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / resnet18 ===
+    eval done in 39.6s clean=0.167 pgd20=0.083 cw_linf=0.042 MES=0.117
+
+=== TRAIN cifar10 / trades / resnet18 ===
+    train done in 37.3s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / resnet18 ===
+    eval done in 44.1s clean=0.125 pgd20=0.083 cw_linf=0.083 MES=0.105
+
+=== TRAIN cifar10 / mart / resnet18 ===
+    train done in 34.7s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / resnet18 ===
+    eval done in 44.9s clean=0.208 pgd20=0.083 cw_linf=0.083 MES=0.133
+
+=== TRAIN cifar10 / acat / resnet18 ===
+    train done in 36.9s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / resnet18 ===
+    eval done in 45.5s clean=0.167 pgd20=0.125 cw_linf=0.125 MES=0.152
+
+=== TRAIN cifar10 / standard / vgg11 ===
+    train done in 5.7s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / vgg11 ===
+    eval done in 17.8s clean=0.208 pgd20=0.125 cw_linf=0.125 MES=0.167
+
+=== TRAIN cifar10 / pgd_at / vgg11 ===
+    train done in 11.0s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / vgg11 ===
+    eval done in 17.8s clean=0.250 pgd20=0.208 cw_linf=0.167 MES=0.223
+
+=== TRAIN cifar10 / trades / vgg11 ===
+    train done in 14.4s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / vgg11 ===
+    eval done in 17.7s clean=0.250 pgd20=0.250 cw_linf=0.250 MES=0.250
+
+=== TRAIN cifar10 / mart / vgg11 ===
+    train done in 13.8s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / vgg11 ===
+    eval done in 17.0s clean=0.167 pgd20=0.167 cw_linf=0.167 MES=0.167
+
+=== TRAIN cifar10 / acat / vgg11 ===
+    train done in 14.8s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / vgg11 ===
+    eval done in 16.4s clean=0.167 pgd20=0.167 cw_linf=0.167 MES=0.167
+
+=== TRAIN cifar10 / standard / mobilenet ===
+    train done in 2.6s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / mobilenet ===
+    eval done in 8.8s clean=0.083 pgd20=0.083 cw_linf=0.000 MES=0.076
+
+=== TRAIN cifar10 / pgd_at / mobilenet ===
+    train done in 5.2s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / mobilenet ===
+    eval done in 9.5s clean=0.083 pgd20=0.042 cw_linf=0.042 MES=0.071
+
+=== TRAIN cifar10 / trades / mobilenet ===
+    train done in 7.7s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / mobilenet ===
+    eval done in 8.9s clean=0.125 pgd20=0.000 cw_linf=0.000 MES=0.045
+
+=== TRAIN cifar10 / mart / mobilenet ===
+    train done in 6.5s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / mobilenet ===
+    eval done in 10.0s clean=0.208 pgd20=0.000 cw_linf=0.000 MES=0.112
+
+=== TRAIN cifar10 / acat / mobilenet ===
+    train done in 7.2s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / mobilenet ===
+    eval done in 9.2s clean=0.125 pgd20=0.000 cw_linf=0.000 MES=0.054
+
+ALL 25 FULL-MATRIX RUNS COMPLETE
+smallcnn standard clean=12.5 pgd20=8.3 MES=10.0 train=2.1s eval=6.2s
+smallcnn pgd_at clean=20.8 pgd20=8.3 MES=11.2 train=3.3s eval=5.7s
+smallcnn trades clean=20.8 pgd20=4.2 MES=12.6 train=3.6s eval=4.9s
+smallcnn mart clean=37.5 pgd20=4.2 MES=18.0 train=3.5s eval=5.4s
+smallcnn acat clean=33.3 pgd20=8.3 MES=18.2 train=4.0s eval=5.1s
+wrn28_10 standard clean=12.5 pgd20=12.5 MES=12.5 train=63.0s eval=272.1s
+wrn28_10 pgd_at clean=12.5 pgd20=8.3 MES=10.5 train=131.1s eval=267.4s
+wrn28_10 trades clean=20.8 pgd20=0.0 MES=6.0 train=171.0s eval=268.8s
+wrn28_10 mart clean=29.2 pgd20=4.2 MES=16.1 train=167.4s eval=290.4s
+wrn28_10 acat clean=12.5 pgd20=4.2 MES=7.7 train=174.9s eval=274.7s
+resnet18 standard clean=12.5 pgd20=0.0 MES=2.5 train=12.2s eval=40.7s
+resnet18 pgd_at clean=16.7 pgd20=8.3 MES=11.7 train=24.8s eval=39.6s
+resnet18 trades clean=12.5 pgd20=8.3 MES=10.5 train=37.3s eval=44.1s
+resnet18 mart clean=20.8 pgd20=8.3 MES=13.3 train=34.7s eval=44.9s
+resnet18 acat clean=16.7 pgd20=12.5 MES=15.2 train=36.9s eval=45.5s
+vgg11 standard clean=20.8 pgd20=12.5 MES=16.7 train=5.7s eval=17.8s
+vgg11 pgd_at clean=25.0 pgd20=20.8 MES=22.3 train=11.0s eval=17.8s
+vgg11 trades clean=25.0 pgd20=25.0 MES=25.0 train=14.4s eval=17.7s
+vgg11 mart clean=16.7 pgd20=16.7 MES=16.7 train=13.8s eval=17.0s
+vgg11 acat clean=16.7 pgd20=16.7 MES=16.7 train=14.8s eval=16.4s
+mobilenet standard clean=8.3 pgd20=8.3 MES=7.6 train=2.6s eval=8.8s
+mobilenet pgd_at clean=8.3 pgd20=4.2 MES=7.1 train=5.2s eval=9.5s
+mobilenet trades clean=12.5 pgd20=0.0 MES=4.5 train=7.7s eval=8.9s
+mobilenet mart clean=20.8 pgd20=0.0 MES=11.2 train=6.5s eval=10.0s
+mobilenet acat clean=12.5 pgd20=0.0 MES=5.4 train=7.2s eval=9.2s

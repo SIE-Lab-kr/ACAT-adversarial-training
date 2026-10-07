@@ -1,0 +1,43 @@
+Setting,Attack,Standard,PGD-AT,TRADES,MART,ACAT
+CIFAR-10 / VGG-11,Clean,91.69,76.41,76.77,72.25,83.21
+CIFAR-10 / VGG-11,FGSM,5.77,49.95,48.98,51.76,46.46
+CIFAR-10 / VGG-11,PGD-20,0.01,44.48,44.51,49.1,34.65
+CIFAR-10 / VGG-11,CW-Linf,0.01,42.65,41.34,42.39,32.26
+CIFAR-10 / VGG-11,AutoAttack,0.0,39.5,41.3,41.4,29.1
+CIFAR-10 / VGG-11,Square (black-box),4.9,53.7,51.8,51.3,50.8
+CIFAR-10 / VGG-11,Transfer (black-box),59.42,75.53,75.58,71.52,81.48
+CIFAR-10 / ResNet-18,Clean,93.83,82.04,80.34,77.67,86.63
+CIFAR-10 / ResNet-18,FGSM,15.91,56.49,55.67,57.25,52.36
+CIFAR-10 / ResNet-18,PGD-20,0.0,50.11,51.13,53.63,42.06
+CIFAR-10 / ResNet-18,CW-Linf,0.0,49.05,48.36,48.36,40.84
+CIFAR-10 / ResNet-18,AutoAttack,0.0,46.0,46.7,46.3,37.8
+CIFAR-10 / ResNet-18,Square (black-box),1.2,58.2,57.5,57.1,57.6
+CIFAR-10 / ResNet-18,Transfer (black-box),6.18,79.32,77.52,75.32,82.0
+CIFAR-10 / WRN-28-10,Clean,94.95,86.91,84.59,82.71,87.22
+CIFAR-10 / WRN-28-10,FGSM,20.79,59.9,60.69,60.87,58.57
+CIFAR-10 / WRN-28-10,PGD-20,0.0,51.75,54.55,55.95,48.09
+CIFAR-10 / WRN-28-10,CW-Linf,0.0,51.94,52.63,51.74,48.44
+CIFAR-10 / WRN-28-10,AutoAttack,0.0,48.9,51.9,49.5,44.3
+CIFAR-10 / WRN-28-10,Square (black-box),1.4,61.8,62.3,60.0,62.1
+CIFAR-10 / WRN-28-10,Transfer (black-box),0.57,85.44,83.17,81.35,85.34
+CIFAR-100 / ResNet-18,Clean,75.22,56.56,56.44,50.36,62.33
+CIFAR-100 / ResNet-18,FGSM,6.28,31.52,31.35,31.86,28.13
+CIFAR-100 / ResNet-18,PGD-20,0.0,28.08,29.08,30.46,23.17
+CIFAR-100 / ResNet-18,CW-Linf,0.0,26.48,24.83,26.02,22.33
+CIFAR-100 / ResNet-18,AutoAttack,0.0,24.4,23.7,25.5,19.3
+CIFAR-100 / ResNet-18,Square (black-box),1.6,31.6,30.5,31.6,30.5
+CIFAR-100 / ResNet-18,Transfer (black-box),6.82,53.47,53.04,48.25,57.55
+Fashion-MNIST / ResNet-18,Clean,95.27,92.47,91.94,91.94,92.97
+Fashion-MNIST / ResNet-18,FGSM,31.09,89.04,88.83,89.01,88.38
+Fashion-MNIST / ResNet-18,PGD-20,0.01,88.55,88.42,88.63,87.73
+Fashion-MNIST / ResNet-18,CW-Linf,0.03,88.49,88.38,88.5,87.71
+Fashion-MNIST / ResNet-18,AutoAttack,0.0,88.6,88.5,88.8,87.5
+Fashion-MNIST / ResNet-18,Square (black-box),0.9,89.5,89.4,89.3,89.1
+Fashion-MNIST / ResNet-18,Transfer (black-box),40.72,91.49,90.93,90.99,91.6
+Tiny-ImageNet (15 cl.) / ResNet-18,Clean,73.47,63.33,64.53,56.0,64.27
+Tiny-ImageNet (15 cl.) / ResNet-18,FGSM,4.13,38.67,38.13,38.67,31.2
+Tiny-ImageNet (15 cl.) / ResNet-18,PGD-20,0.27,35.33,36.8,36.8,28.13
+Tiny-ImageNet (15 cl.) / ResNet-18,CW-Linf,0.27,32.8,32.0,32.0,26.67
+Tiny-ImageNet (15 cl.) / ResNet-18,AutoAttack,0.13,30.93,31.47,30.4,24.27
+Tiny-ImageNet (15 cl.) / ResNet-18,Square (black-box),9.47,43.47,43.2,40.27,37.47
+Tiny-ImageNet (15 cl.) / ResNet-18,Transfer (black-box),21.6,57.2,58.8,52.93,58.27

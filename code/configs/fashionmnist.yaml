@@ -1,0 +1,17 @@
+dataset: fashionmnist
+backbone: smallcnn              # standard practice for FMNIST; ResNet is overkill
+num_classes: 10
+img_size: 28
+epochs: 40
+batch_size: 128
+optimizer: sgd
+lr: 0.05
+momentum: 0.9
+weight_decay: 5e-4
+lr_schedule: cosine
+train_eps: 0.1                 # common FMNIST L_inf budget (pixel range [0,1])
+train_alpha: 0.02
+train_steps: 10
+eval:
+  attacks: [fgsm, pgd20, apgd20, cw_linf, square_bbox, transfer_bbox]
+  eps: 0.1

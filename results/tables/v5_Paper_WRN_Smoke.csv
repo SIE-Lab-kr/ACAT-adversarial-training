@@ -1,0 +1,4 @@
+Method,Clean,FGSM,PGD-20,ASR (FGSM/PGD-20),Train time
+Standard,12.5,12.5,12.5,87.5 / 87.5,92.7
+PGD-AT,15.0,10.0,10.0,90.0 / 90.0,132.6
+ACAT (ours),15.0,5.0,5.0,95.0 / 95.0,180.4

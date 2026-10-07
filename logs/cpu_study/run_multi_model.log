@@ -1,0 +1,92 @@
+
+=== TRAIN cifar10 / standard / resnet18 ===
+    train done in 15.9s (n_params=11.174M)
+=== EVAL cifar10 / standard / resnet18 ===
+    eval done in 12.2s clean=0.125 fgsm=0.000 pgd20=0.000 ASR_pgd20=1.000
+
+=== TRAIN cifar10 / pgd_at / resnet18 ===
+    train done in 23.4s (n_params=11.174M)
+=== EVAL cifar10 / pgd_at / resnet18 ===
+    eval done in 30.4s clean=0.250 fgsm=0.125 pgd20=0.125 ASR_pgd20=0.875
+
+=== TRAIN cifar10 / trades / resnet18 ===
+    train done in 332.6s (n_params=11.174M)
+=== EVAL cifar10 / trades / resnet18 ===
+    eval done in 89.2s clean=0.200 fgsm=0.125 pgd20=0.100 ASR_pgd20=0.900
+
+=== TRAIN cifar10 / mart / resnet18 ===
+    train done in 33.7s (n_params=11.174M)
+=== EVAL cifar10 / mart / resnet18 ===
+    eval done in 12.4s clean=0.200 fgsm=0.050 pgd20=0.050 ASR_pgd20=0.950
+
+=== TRAIN cifar10 / acat / resnet18 ===
+    train done in 35.7s (n_params=11.174M)
+=== EVAL cifar10 / acat / resnet18 ===
+    eval done in 11.5s clean=0.175 fgsm=0.100 pgd20=0.100 ASR_pgd20=0.900
+
+=== TRAIN cifar10 / standard / vgg11 ===
+    train done in 5.5s (n_params=9.228M)
+=== EVAL cifar10 / standard / vgg11 ===
+    eval done in 4.6s clean=0.250 fgsm=0.100 pgd20=0.100 ASR_pgd20=0.900
+
+=== TRAIN cifar10 / pgd_at / vgg11 ===
+    train done in 10.0s (n_params=9.228M)
+=== EVAL cifar10 / pgd_at / vgg11 ===
+    eval done in 4.5s clean=0.225 fgsm=0.150 pgd20=0.125 ASR_pgd20=0.875
+
+=== TRAIN cifar10 / trades / vgg11 ===
+    train done in 13.4s (n_params=9.228M)
+=== EVAL cifar10 / trades / vgg11 ===
+    eval done in 4.5s clean=0.200 fgsm=0.200 pgd20=0.200 ASR_pgd20=0.800
+
+=== TRAIN cifar10 / mart / vgg11 ===
+    train done in 12.9s (n_params=9.228M)
+=== EVAL cifar10 / mart / vgg11 ===
+    eval done in 4.5s clean=0.175 fgsm=0.175 pgd20=0.175 ASR_pgd20=0.825
+
+=== TRAIN cifar10 / acat / vgg11 ===
+    train done in 14.0s (n_params=9.228M)
+=== EVAL cifar10 / acat / vgg11 ===
+    eval done in 4.4s clean=0.200 fgsm=0.200 pgd20=0.200 ASR_pgd20=0.800
+
+=== TRAIN cifar10 / standard / mobilenet ===
+    train done in 2.3s (n_params=0.543M)
+=== EVAL cifar10 / standard / mobilenet ===
+    eval done in 2.2s clean=0.100 fgsm=0.100 pgd20=0.100 ASR_pgd20=0.900
+
+=== TRAIN cifar10 / pgd_at / mobilenet ===
+    train done in 4.7s (n_params=0.543M)
+=== EVAL cifar10 / pgd_at / mobilenet ===
+    eval done in 3.0s clean=0.100 fgsm=0.100 pgd20=0.075 ASR_pgd20=0.925
+
+=== TRAIN cifar10 / trades / mobilenet ===
+    train done in 7.5s (n_params=0.543M)
+=== EVAL cifar10 / trades / mobilenet ===
+    eval done in 2.4s clean=0.150 fgsm=0.075 pgd20=0.000 ASR_pgd20=1.000
+
+=== TRAIN cifar10 / mart / mobilenet ===
+    train done in 6.3s (n_params=0.543M)
+=== EVAL cifar10 / mart / mobilenet ===
+    eval done in 2.2s clean=0.225 fgsm=0.050 pgd20=0.000 ASR_pgd20=1.000
+
+=== TRAIN cifar10 / acat / mobilenet ===
+    train done in 6.5s (n_params=0.543M)
+=== EVAL cifar10 / acat / mobilenet ===
+    eval done in 2.2s clean=0.125 fgsm=0.025 pgd20=0.000 ASR_pgd20=1.000
+
+ALL MULTI-MODEL COMPARISON RUNS COMPLETE
+resnet18 standard clean=0.125 pgd20=0.000 train_time=15.9s
+resnet18 pgd_at clean=0.250 pgd20=0.125 train_time=23.4s
+resnet18 trades clean=0.200 pgd20=0.100 train_time=332.6s
+resnet18 mart clean=0.200 pgd20=0.050 train_time=33.7s
+resnet18 acat clean=0.175 pgd20=0.100 train_time=35.7s
+vgg11 standard clean=0.250 pgd20=0.100 train_time=5.5s
+vgg11 pgd_at clean=0.225 pgd20=0.125 train_time=10.0s
+vgg11 trades clean=0.200 pgd20=0.200 train_time=13.4s
+vgg11 mart clean=0.175 pgd20=0.175 train_time=12.9s
+vgg11 acat clean=0.200 pgd20=0.200 train_time=14.0s
+mobilenet standard clean=0.100 pgd20=0.100 train_time=2.3s
+mobilenet pgd_at clean=0.100 pgd20=0.075 train_time=4.7s
+mobilenet trades clean=0.150 pgd20=0.000 train_time=7.5s
+mobilenet mart clean=0.225 pgd20=0.000 train_time=6.3s
+mobilenet acat clean=0.125 pgd20=0.000 train_time=6.5s

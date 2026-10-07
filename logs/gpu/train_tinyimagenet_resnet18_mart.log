@@ -1,0 +1,33 @@
+
+==== Thu Sep 24 00:56:36 2026 :: gpu/train.py --dataset tinyimagenet --backbone resnet18 --method mart --tag mart --epochs 30 --out results_gpu
+{"epoch": 0, "train_loss": 2.9734, "epoch_time": 24.3306, "clean_acc": 0.1867, "pgd10_acc": 0.0907}
+{"epoch": 1, "train_loss": 2.8233, "epoch_time": 23.592, "clean_acc": 0.1507, "pgd10_acc": 0.1107}
+{"epoch": 2, "train_loss": 2.7753, "epoch_time": 23.583, "clean_acc": 0.14, "pgd10_acc": 0.1067}
+{"epoch": 3, "train_loss": 2.7321, "epoch_time": 23.5485, "clean_acc": 0.204, "pgd10_acc": 0.1413}
+{"epoch": 4, "train_loss": 2.6926, "epoch_time": 23.5374, "clean_acc": 0.2373, "pgd10_acc": 0.1693}
+{"epoch": 5, "train_loss": 2.6752, "epoch_time": 23.5282, "clean_acc": 0.2587, "pgd10_acc": 0.16}
+{"epoch": 6, "train_loss": 2.6534, "epoch_time": 23.5397, "clean_acc": 0.3213, "pgd10_acc": 0.2053}
+{"epoch": 7, "train_loss": 2.6421, "epoch_time": 23.5629, "clean_acc": 0.308, "pgd10_acc": 0.212}
+{"epoch": 8, "train_loss": 2.6268, "epoch_time": 23.5486, "clean_acc": 0.3333, "pgd10_acc": 0.2107}
+{"epoch": 9, "train_loss": 2.6156, "epoch_time": 23.5528, "clean_acc": 0.3467, "pgd10_acc": 0.2147}
+{"epoch": 10, "train_loss": 2.6039, "epoch_time": 23.5376, "clean_acc": 0.3453, "pgd10_acc": 0.2373}
+{"epoch": 11, "train_loss": 2.5806, "epoch_time": 23.5511, "clean_acc": 0.384, "pgd10_acc": 0.2347}
+{"epoch": 12, "train_loss": 2.5609, "epoch_time": 23.5538, "clean_acc": 0.3493, "pgd10_acc": 0.2267}
+{"epoch": 13, "train_loss": 2.5496, "epoch_time": 23.5515, "clean_acc": 0.376, "pgd10_acc": 0.2507}
+{"epoch": 14, "train_loss": 2.5195, "epoch_time": 23.5487, "clean_acc": 0.416, "pgd10_acc": 0.2813}
+{"epoch": 15, "train_loss": 2.5034, "epoch_time": 23.5568, "clean_acc": 0.4267, "pgd10_acc": 0.2947}
+{"epoch": 16, "train_loss": 2.4839, "epoch_time": 23.5518, "clean_acc": 0.444, "pgd10_acc": 0.296}
+{"epoch": 17, "train_loss": 2.4565, "epoch_time": 23.5439, "clean_acc": 0.4693, "pgd10_acc": 0.316}
+{"epoch": 18, "train_loss": 2.4308, "epoch_time": 23.5461, "clean_acc": 0.496, "pgd10_acc": 0.3093}
+{"epoch": 19, "train_loss": 2.4086, "epoch_time": 23.5437, "clean_acc": 0.4933, "pgd10_acc": 0.3227}
+{"epoch": 20, "train_loss": 2.386, "epoch_time": 23.5601, "clean_acc": 0.4747, "pgd10_acc": 0.3253}
+{"epoch": 21, "train_loss": 2.3473, "epoch_time": 23.5373, "clean_acc": 0.4907, "pgd10_acc": 0.3347}
+{"epoch": 22, "train_loss": 2.3249, "epoch_time": 23.5441, "clean_acc": 0.5213, "pgd10_acc": 0.3373}
+{"epoch": 23, "train_loss": 2.2918, "epoch_time": 23.5453, "clean_acc": 0.5307, "pgd10_acc": 0.3547}
+{"epoch": 24, "train_loss": 2.2615, "epoch_time": 23.5458, "clean_acc": 0.5373, "pgd10_acc": 0.356}
+{"epoch": 25, "train_loss": 2.2347, "epoch_time": 23.5512, "clean_acc": 0.5547, "pgd10_acc": 0.3533}
+{"epoch": 26, "train_loss": 2.2014, "epoch_time": 23.5503, "clean_acc": 0.5693, "pgd10_acc": 0.3627}
+{"epoch": 27, "train_loss": 2.1727, "epoch_time": 23.5495, "clean_acc": 0.572, "pgd10_acc": 0.368}
+{"epoch": 28, "train_loss": 2.1615, "epoch_time": 23.5519, "clean_acc": 0.5627, "pgd10_acc": 0.3693}
+{"epoch": 29, "train_loss": 2.1427, "epoch_time": 23.5635, "clean_acc": 0.56, "pgd10_acc": 0.3693}
+finished results_gpu\tinyimagenet\resnet18\mart train_time=707s

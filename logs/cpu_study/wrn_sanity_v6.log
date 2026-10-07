@@ -1,0 +1,8 @@
+Using device: cpu  (QUICK sanity-pass scale)
+
+=== TRAIN cifar10 / acat / wrn28_10 (epochs=3, batch_size=8, device=cpu) ===
+    train done in 221.0s (n_params=36.479M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / wrn28_10 ===
+    eval done in 67.0s clean=0.000 pgd20=0.000 MES=0.000
+
+DONE. 1 / 1 (dataset, backbone, method) cells complete. See /tmp/wrn_sanity/comparison_summary_full_v6.csv

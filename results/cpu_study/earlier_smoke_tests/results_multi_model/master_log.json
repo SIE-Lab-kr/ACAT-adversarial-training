@@ -1,0 +1,350 @@
+{
+  "started": "2026-09-07 06:06:56",
+  "dataset": "cifar10",
+  "backbones": [
+    "resnet18",
+    "vgg11",
+    "mobilenet"
+  ],
+  "methods": [
+    "standard",
+    "pgd_at",
+    "trades",
+    "mart",
+    "acat"
+  ],
+  "runs": [
+    {
+      "backbone": "resnet18",
+      "method": "standard",
+      "train_time_sec": 15.914612531661987,
+      "n_params": 11173962,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.125,
+          "fgsm": 0.0,
+          "pgd20": 0.0
+        },
+        "asr": {
+          "fgsm": 1.0,
+          "pgd20": 1.0
+        },
+        "eval_time_sec": 12.190004110336304
+      }
+    },
+    {
+      "backbone": "resnet18",
+      "method": "pgd_at",
+      "train_time_sec": 23.37903380393982,
+      "n_params": 11173962,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.25,
+          "fgsm": 0.125,
+          "pgd20": 0.125
+        },
+        "asr": {
+          "fgsm": 0.875,
+          "pgd20": 0.875
+        },
+        "eval_time_sec": 30.448642015457153
+      }
+    },
+    {
+      "backbone": "resnet18",
+      "method": "trades",
+      "train_time_sec": 332.6308391094208,
+      "n_params": 11173962,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.2,
+          "fgsm": 0.125,
+          "pgd20": 0.1
+        },
+        "asr": {
+          "fgsm": 0.875,
+          "pgd20": 0.9
+        },
+        "eval_time_sec": 89.18190288543701
+      }
+    },
+    {
+      "backbone": "resnet18",
+      "method": "mart",
+      "train_time_sec": 33.70783877372742,
+      "n_params": 11173962,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.2,
+          "fgsm": 0.05,
+          "pgd20": 0.05
+        },
+        "asr": {
+          "fgsm": 0.95,
+          "pgd20": 0.95
+        },
+        "eval_time_sec": 12.362096071243286
+      }
+    },
+    {
+      "backbone": "resnet18",
+      "method": "acat",
+      "train_time_sec": 35.670785427093506,
+      "n_params": 11173962,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.175,
+          "fgsm": 0.1,
+          "pgd20": 0.1
+        },
+        "asr": {
+          "fgsm": 0.9,
+          "pgd20": 0.9
+        },
+        "eval_time_sec": 11.521786212921143
+      }
+    },
+    {
+      "backbone": "vgg11",
+      "method": "standard",
+      "train_time_sec": 5.486550807952881,
+      "n_params": 9228362,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.25,
+          "fgsm": 0.1,
+          "pgd20": 0.1
+        },
+        "asr": {
+          "fgsm": 0.9,
+          "pgd20": 0.9
+        },
+        "eval_time_sec": 4.565023183822632
+      }
+    },
+    {
+      "backbone": "vgg11",
+      "method": "pgd_at",
+      "train_time_sec": 10.02253794670105,
+      "n_params": 9228362,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.225,
+          "fgsm": 0.15,
+          "pgd20": 0.125
+        },
+        "asr": {
+          "fgsm": 0.85,
+          "pgd20": 0.875
+        },
+        "eval_time_sec": 4.485302448272705
+      }
+    },
+    {
+      "backbone": "vgg11",
+      "method": "trades",
+      "train_time_sec": 13.447552680969238,
+      "n_params": 9228362,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.2,
+          "fgsm": 0.2,
+          "pgd20": 0.2
+        },
+        "asr": {
+          "fgsm": 0.8,
+          "pgd20": 0.8
+        },
+        "eval_time_sec": 4.522832632064819
+      }
+    },
+    {
+      "backbone": "vgg11",
+      "method": "mart",
+      "train_time_sec": 12.908494472503662,
+      "n_params": 9228362,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.175,
+          "fgsm": 0.175,
+          "pgd20": 0.175
+        },
+        "asr": {
+          "fgsm": 0.825,
+          "pgd20": 0.825
+        },
+        "eval_time_sec": 4.497791767120361
+      }
+    },
+    {
+      "backbone": "vgg11",
+      "method": "acat",
+      "train_time_sec": 14.044542074203491,
+      "n_params": 9228362,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.2,
+          "fgsm": 0.2,
+          "pgd20": 0.2
+        },
+        "asr": {
+          "fgsm": 0.8,
+          "pgd20": 0.8
+        },
+        "eval_time_sec": 4.435635566711426
+      }
+    },
+    {
+      "backbone": "mobilenet",
+      "method": "standard",
+      "train_time_sec": 2.2782344818115234,
+      "n_params": 543050,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.1,
+          "fgsm": 0.1,
+          "pgd20": 0.1
+        },
+        "asr": {
+          "fgsm": 0.9,
+          "pgd20": 0.9
+        },
+        "eval_time_sec": 2.1892893314361572
+      }
+    },
+    {
+      "backbone": "mobilenet",
+      "method": "pgd_at",
+      "train_time_sec": 4.718496799468994,
+      "n_params": 543050,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.1,
+          "fgsm": 0.1,
+          "pgd20": 0.075
+        },
+        "asr": {
+          "fgsm": 0.9,
+          "pgd20": 0.925
+        },
+        "eval_time_sec": 3.045323610305786
+      }
+    },
+    {
+      "backbone": "mobilenet",
+      "method": "trades",
+      "train_time_sec": 7.533564329147339,
+      "n_params": 543050,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.15,
+          "fgsm": 0.075,
+          "pgd20": 0.0
+        },
+        "asr": {
+          "fgsm": 0.925,
+          "pgd20": 1.0
+        },
+        "eval_time_sec": 2.3970258235931396
+      }
+    },
+    {
+      "backbone": "mobilenet",
+      "method": "mart",
+      "train_time_sec": 6.3260581493377686,
+      "n_params": 543050,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.225,
+          "fgsm": 0.05,
+          "pgd20": 0.0
+        },
+        "asr": {
+          "fgsm": 0.95,
+          "pgd20": 1.0
+        },
+        "eval_time_sec": 2.207658529281616
+      }
+    },
+    {
+      "backbone": "mobilenet",
+      "method": "acat",
+      "train_time_sec": 6.4970173835754395,
+      "n_params": 543050,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 4,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.125,
+          "fgsm": 0.025,
+          "pgd20": 0.0
+        },
+        "asr": {
+          "fgsm": 0.975,
+          "pgd20": 1.0
+        },
+        "eval_time_sec": 2.1705942153930664
+      }
+    }
+  ],
+  "finished_so_far": "2026-09-07 06:18:51",
+  "finished": "2026-09-07 06:18:51"
+}

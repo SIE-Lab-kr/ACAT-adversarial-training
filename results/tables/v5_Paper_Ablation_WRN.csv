@@ -1,0 +1,4 @@
+Method,Clean accuracy,FGSM,PGD-100,C&W,AA
+Hardness only,86.16,61.85,57.38,52.61,51.30
+Boundary proximity only,85.51,62.32,58.21,53.29,52.10
+ACAT (Hardness + Boundary),86.35,63.66,59.04,54.01,52.43

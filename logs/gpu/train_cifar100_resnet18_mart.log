@@ -1,0 +1,33 @@
+
+==== Wed Sep 23 20:54:41 2026 :: gpu/train.py --dataset cifar100 --backbone resnet18 --method mart --tag mart --epochs 30 --out results_gpu
+{"epoch": 0, "train_loss": 4.5267, "epoch_time": 46.3685, "clean_acc": 0.083, "pgd10_acc": 0.05}
+{"epoch": 1, "train_loss": 4.2611, "epoch_time": 45.8667, "clean_acc": 0.137, "pgd10_acc": 0.089}
+{"epoch": 2, "train_loss": 4.1577, "epoch_time": 45.8244, "clean_acc": 0.156, "pgd10_acc": 0.113}
+{"epoch": 3, "train_loss": 4.0822, "epoch_time": 45.7629, "clean_acc": 0.159, "pgd10_acc": 0.108}
+{"epoch": 4, "train_loss": 4.0275, "epoch_time": 45.7807, "clean_acc": 0.212, "pgd10_acc": 0.143}
+{"epoch": 5, "train_loss": 3.9649, "epoch_time": 45.7943, "clean_acc": 0.219, "pgd10_acc": 0.142}
+{"epoch": 6, "train_loss": 3.9058, "epoch_time": 45.8597, "clean_acc": 0.241, "pgd10_acc": 0.154}
+{"epoch": 7, "train_loss": 3.8472, "epoch_time": 45.7873, "clean_acc": 0.279, "pgd10_acc": 0.175}
+{"epoch": 8, "train_loss": 3.8029, "epoch_time": 46.0963, "clean_acc": 0.293, "pgd10_acc": 0.177}
+{"epoch": 9, "train_loss": 3.7621, "epoch_time": 46.142, "clean_acc": 0.303, "pgd10_acc": 0.179}
+{"epoch": 10, "train_loss": 3.7257, "epoch_time": 45.6805, "clean_acc": 0.332, "pgd10_acc": 0.189}
+{"epoch": 11, "train_loss": 3.6975, "epoch_time": 45.6892, "clean_acc": 0.336, "pgd10_acc": 0.217}
+{"epoch": 12, "train_loss": 3.6747, "epoch_time": 45.7246, "clean_acc": 0.354, "pgd10_acc": 0.213}
+{"epoch": 13, "train_loss": 3.6419, "epoch_time": 45.7549, "clean_acc": 0.34, "pgd10_acc": 0.203}
+{"epoch": 14, "train_loss": 3.6119, "epoch_time": 45.7794, "clean_acc": 0.364, "pgd10_acc": 0.217}
+{"epoch": 15, "train_loss": 3.5801, "epoch_time": 45.7183, "clean_acc": 0.385, "pgd10_acc": 0.223}
+{"epoch": 16, "train_loss": 3.5413, "epoch_time": 45.7127, "clean_acc": 0.393, "pgd10_acc": 0.249}
+{"epoch": 17, "train_loss": 3.5104, "epoch_time": 45.6539, "clean_acc": 0.389, "pgd10_acc": 0.241}
+{"epoch": 18, "train_loss": 3.4724, "epoch_time": 45.6748, "clean_acc": 0.408, "pgd10_acc": 0.255}
+{"epoch": 19, "train_loss": 3.4328, "epoch_time": 45.7219, "clean_acc": 0.402, "pgd10_acc": 0.262}
+{"epoch": 20, "train_loss": 3.3908, "epoch_time": 45.7375, "clean_acc": 0.424, "pgd10_acc": 0.265}
+{"epoch": 21, "train_loss": 3.3409, "epoch_time": 45.849, "clean_acc": 0.435, "pgd10_acc": 0.271}
+{"epoch": 22, "train_loss": 3.294, "epoch_time": 45.6963, "clean_acc": 0.462, "pgd10_acc": 0.291}
+{"epoch": 23, "train_loss": 3.2346, "epoch_time": 45.6398, "clean_acc": 0.469, "pgd10_acc": 0.289}
+{"epoch": 24, "train_loss": 3.1735, "epoch_time": 45.6668, "clean_acc": 0.474, "pgd10_acc": 0.288}
+{"epoch": 25, "train_loss": 3.1133, "epoch_time": 45.7193, "clean_acc": 0.475, "pgd10_acc": 0.298}
+{"epoch": 26, "train_loss": 3.0471, "epoch_time": 45.6711, "clean_acc": 0.498, "pgd10_acc": 0.306}
+{"epoch": 27, "train_loss": 2.9968, "epoch_time": 45.8784, "clean_acc": 0.497, "pgd10_acc": 0.31}
+{"epoch": 28, "train_loss": 2.9559, "epoch_time": 45.7711, "clean_acc": 0.498, "pgd10_acc": 0.317}
+{"epoch": 29, "train_loss": 2.9317, "epoch_time": 45.7065, "clean_acc": 0.491, "pgd10_acc": 0.312}
+finished results_gpu\cifar100\resnet18\mart train_time=1374s

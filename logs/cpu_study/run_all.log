@@ -1,0 +1,172 @@
+
+=== TRAIN cifar10 / standard ===
+[cifar10/standard] epoch 1/6 loss=2.1718 clean_acc=0.188 pgd10_acc=0.094 time=3.6s
+[cifar10/standard] epoch 2/6 loss=1.9073 clean_acc=0.307 pgd10_acc=0.052 time=2.9s
+[cifar10/standard] epoch 3/6 loss=1.7576 clean_acc=0.292 pgd10_acc=0.036 time=3.0s
+[cifar10/standard] epoch 4/6 loss=1.6669 clean_acc=0.250 pgd10_acc=0.031 time=3.0s
+[cifar10/standard] epoch 5/6 loss=1.6193 clean_acc=0.323 pgd10_acc=0.021 time=3.0s
+[cifar10/standard] epoch 6/6 loss=1.5875 clean_acc=0.349 pgd10_acc=0.016 time=2.8s
+    done in 19.3s  clean=0.349 pgd10=0.016
+
+=== TRAIN cifar10 / pgd_at ===
+[cifar10/pgd_at] epoch 1/6 loss=2.3020 clean_acc=0.198 pgd10_acc=0.120 time=7.3s
+[cifar10/pgd_at] epoch 2/6 loss=2.2277 clean_acc=0.266 pgd10_acc=0.057 time=6.8s
+[cifar10/pgd_at] epoch 3/6 loss=2.1599 clean_acc=0.255 pgd10_acc=0.120 time=6.9s
+[cifar10/pgd_at] epoch 4/6 loss=2.1131 clean_acc=0.255 pgd10_acc=0.141 time=7.2s
+[cifar10/pgd_at] epoch 5/6 loss=2.0903 clean_acc=0.297 pgd10_acc=0.172 time=7.5s
+[cifar10/pgd_at] epoch 6/6 loss=2.0795 clean_acc=0.297 pgd10_acc=0.167 time=7.7s
+    done in 43.5s  clean=0.297 pgd10=0.167
+
+=== TRAIN cifar10 / trades ===
+[cifar10/trades] epoch 1/6 loss=2.2416 clean_acc=0.234 pgd10_acc=0.031 time=7.6s
+[cifar10/trades] epoch 2/6 loss=2.1275 clean_acc=0.224 pgd10_acc=0.047 time=7.9s
+[cifar10/trades] epoch 3/6 loss=2.0499 clean_acc=0.271 pgd10_acc=0.109 time=8.1s
+[cifar10/trades] epoch 4/6 loss=1.9903 clean_acc=0.276 pgd10_acc=0.120 time=7.3s
+[cifar10/trades] epoch 5/6 loss=1.9627 clean_acc=0.312 pgd10_acc=0.109 time=7.6s
+[cifar10/trades] epoch 6/6 loss=1.9424 clean_acc=0.318 pgd10_acc=0.109 time=8.0s
+    done in 46.6s  clean=0.318 pgd10=0.109
+
+=== TRAIN cifar10 / mart ===
+[cifar10/mart] epoch 1/6 loss=2.5170 clean_acc=0.250 pgd10_acc=0.047 time=6.5s
+[cifar10/mart] epoch 2/6 loss=2.4016 clean_acc=0.198 pgd10_acc=0.099 time=6.2s
+[cifar10/mart] epoch 3/6 loss=2.3687 clean_acc=0.224 pgd10_acc=0.115 time=6.6s
+[cifar10/mart] epoch 4/6 loss=2.3280 clean_acc=0.240 pgd10_acc=0.141 time=6.3s
+[cifar10/mart] epoch 5/6 loss=2.3137 clean_acc=0.281 pgd10_acc=0.167 time=6.7s
+[cifar10/mart] epoch 6/6 loss=2.3034 clean_acc=0.297 pgd10_acc=0.135 time=6.5s
+    done in 38.8s  clean=0.297 pgd10=0.135
+
+=== TRAIN cifar10 / acat ===
+[cifar10/acat] epoch 1/6 loss=2.1659 clean_acc=0.182 pgd10_acc=0.068 time=7.3s
+[cifar10/acat] epoch 2/6 loss=2.0191 clean_acc=0.156 pgd10_acc=0.094 time=6.7s
+[cifar10/acat] epoch 3/6 loss=1.9795 clean_acc=0.297 pgd10_acc=0.135 time=6.9s
+[cifar10/acat] epoch 4/6 loss=1.9514 clean_acc=0.307 pgd10_acc=0.115 time=6.6s
+[cifar10/acat] epoch 5/6 loss=1.9418 clean_acc=0.312 pgd10_acc=0.115 time=6.5s
+[cifar10/acat] epoch 6/6 loss=1.9556 clean_acc=0.328 pgd10_acc=0.135 time=6.8s
+    done in 40.9s  clean=0.328 pgd10=0.135
+
+=== EVAL cifar10 / standard ===
+    done in 15.9s  MES=0.085  acc={'clean': 0.3333333333333333, 'fgsm': 0.06, 'pgd20': 0.006666666666666667, 'apgd20': 0.013333333333333334, 'cw_linf': 0.02, 'square_bbox': 0.18666666666666668, 'transfer_bbox': 0.006666666666666667}
+
+=== EVAL cifar10 / pgd_at ===
+    done in 15.5s  MES=0.193  acc={'clean': 0.26, 'fgsm': 0.14, 'pgd20': 0.15333333333333332, 'apgd20': 0.14666666666666667, 'cw_linf': 0.07333333333333333, 'square_bbox': 0.2, 'transfer_bbox': 0.20666666666666667}
+
+=== EVAL cifar10 / trades ===
+    done in 16.3s  MES=0.168  acc={'clean': 0.29333333333333333, 'fgsm': 0.10666666666666667, 'pgd20': 0.08666666666666667, 'apgd20': 0.08666666666666667, 'cw_linf': 0.04, 'square_bbox': 0.2, 'transfer_bbox': 0.18666666666666668}
+
+=== EVAL cifar10 / mart ===
+    done in 15.9s  MES=0.176  acc={'clean': 0.24, 'fgsm': 0.12666666666666668, 'pgd20': 0.11333333333333333, 'apgd20': 0.12, 'cw_linf': 0.09333333333333334, 'square_bbox': 0.18666666666666668, 'transfer_bbox': 0.19333333333333333}
+
+=== EVAL cifar10 / acat ===
+    done in 16.1s  MES=0.171  acc={'clean': 0.28, 'fgsm': 0.12, 'pgd20': 0.11333333333333333, 'apgd20': 0.12, 'cw_linf': 0.08, 'square_bbox': 0.15333333333333332, 'transfer_bbox': 0.15333333333333332}
+
+=== TRAIN fashionmnist / standard ===
+[fashionmnist/standard] epoch 1/6 loss=1.9758 clean_acc=0.224 pgd10_acc=0.219 time=2.0s
+[fashionmnist/standard] epoch 2/6 loss=1.3580 clean_acc=0.500 pgd10_acc=0.333 time=1.9s
+[fashionmnist/standard] epoch 3/6 loss=1.0634 clean_acc=0.443 pgd10_acc=0.271 time=1.9s
+[fashionmnist/standard] epoch 4/6 loss=0.9110 clean_acc=0.620 pgd10_acc=0.422 time=1.9s
+[fashionmnist/standard] epoch 5/6 loss=0.8221 clean_acc=0.542 pgd10_acc=0.375 time=1.8s
+[fashionmnist/standard] epoch 6/6 loss=0.7611 clean_acc=0.646 pgd10_acc=0.438 time=1.9s
+    done in 11.7s  clean=0.646 pgd10=0.438
+
+=== TRAIN fashionmnist / pgd_at ===
+[fashionmnist/pgd_at] epoch 1/6 loss=2.0255 clean_acc=0.234 pgd10_acc=0.208 time=5.2s
+[fashionmnist/pgd_at] epoch 2/6 loss=1.5035 clean_acc=0.557 pgd10_acc=0.505 time=5.1s
+[fashionmnist/pgd_at] epoch 3/6 loss=1.2667 clean_acc=0.484 pgd10_acc=0.438 time=5.3s
+[fashionmnist/pgd_at] epoch 4/6 loss=1.1340 clean_acc=0.578 pgd10_acc=0.531 time=5.2s
+[fashionmnist/pgd_at] epoch 5/6 loss=1.0513 clean_acc=0.609 pgd10_acc=0.531 time=5.0s
+[fashionmnist/pgd_at] epoch 6/6 loss=1.0215 clean_acc=0.615 pgd10_acc=0.526 time=5.1s
+    done in 31.2s  clean=0.615 pgd10=0.526
+
+=== TRAIN fashionmnist / trades ===
+[fashionmnist/trades] epoch 1/6 loss=1.9864 clean_acc=0.328 pgd10_acc=0.281 time=6.3s
+[fashionmnist/trades] epoch 2/6 loss=1.3846 clean_acc=0.521 pgd10_acc=0.438 time=6.1s
+[fashionmnist/trades] epoch 3/6 loss=1.1056 clean_acc=0.484 pgd10_acc=0.401 time=6.0s
+[fashionmnist/trades] epoch 4/6 loss=0.9756 clean_acc=0.594 pgd10_acc=0.469 time=6.1s
+[fashionmnist/trades] epoch 5/6 loss=0.8941 clean_acc=0.609 pgd10_acc=0.490 time=5.9s
+[fashionmnist/trades] epoch 6/6 loss=0.8696 clean_acc=0.625 pgd10_acc=0.490 time=6.0s
+    done in 36.8s  clean=0.625 pgd10=0.490
+
+=== TRAIN fashionmnist / mart ===
+[fashionmnist/mart] epoch 1/6 loss=2.2288 clean_acc=0.391 pgd10_acc=0.328 time=5.8s
+[fashionmnist/mart] epoch 2/6 loss=1.8273 clean_acc=0.562 pgd10_acc=0.510 time=5.8s
+[fashionmnist/mart] epoch 3/6 loss=1.6157 clean_acc=0.505 pgd10_acc=0.479 time=5.7s
+[fashionmnist/mart] epoch 4/6 loss=1.4870 clean_acc=0.599 pgd10_acc=0.547 time=5.8s
+[fashionmnist/mart] epoch 5/6 loss=1.3945 clean_acc=0.615 pgd10_acc=0.547 time=5.8s
+[fashionmnist/mart] epoch 6/6 loss=1.3599 clean_acc=0.625 pgd10_acc=0.562 time=6.1s
+    done in 35.2s  clean=0.625 pgd10=0.562
+
+=== TRAIN fashionmnist / acat ===
+[fashionmnist/acat] epoch 1/6 loss=1.9195 clean_acc=0.177 pgd10_acc=0.156 time=6.5s
+[fashionmnist/acat] epoch 2/6 loss=1.3974 clean_acc=0.427 pgd10_acc=0.380 time=6.4s
+[fashionmnist/acat] epoch 3/6 loss=1.0830 clean_acc=0.521 pgd10_acc=0.443 time=6.2s
+[fashionmnist/acat] epoch 4/6 loss=0.9930 clean_acc=0.557 pgd10_acc=0.443 time=6.2s
+[fashionmnist/acat] epoch 5/6 loss=1.0062 clean_acc=0.568 pgd10_acc=0.432 time=6.7s
+[fashionmnist/acat] epoch 6/6 loss=1.0785 clean_acc=0.594 pgd10_acc=0.469 time=6.2s
+    done in 38.4s  clean=0.594 pgd10=0.469
+
+=== EVAL fashionmnist / standard ===
+    done in 13.2s  MES=0.531  acc={'clean': 0.64, 'fgsm': 0.4666666666666667, 'pgd20': 0.44, 'apgd20': 0.43333333333333335, 'cw_linf': 0.42, 'square_bbox': 0.5266666666666666, 'transfer_bbox': 0.44}
+
+=== EVAL fashionmnist / pgd_at ===
+    done in 13.9s  MES=0.581  acc={'clean': 0.6333333333333333, 'fgsm': 0.5266666666666666, 'pgd20': 0.5266666666666666, 'apgd20': 0.5266666666666666, 'cw_linf': 0.5133333333333333, 'square_bbox': 0.5666666666666667, 'transfer_bbox': 0.56}
+
+=== EVAL fashionmnist / trades ===
+    done in 14.1s  MES=0.561  acc={'clean': 0.6333333333333333, 'fgsm': 0.5, 'pgd20': 0.4866666666666667, 'apgd20': 0.4866666666666667, 'cw_linf': 0.4533333333333333, 'square_bbox': 0.56, 'transfer_bbox': 0.5333333333333333}
+
+=== EVAL fashionmnist / mart ===
+    done in 13.9s  MES=0.599  acc={'clean': 0.6266666666666667, 'fgsm': 0.5866666666666667, 'pgd20': 0.5733333333333334, 'apgd20': 0.5733333333333334, 'cw_linf': 0.5333333333333333, 'square_bbox': 0.5866666666666667, 'transfer_bbox': 0.5866666666666667}
+
+=== EVAL fashionmnist / acat ===
+    done in 13.7s  MES=0.524  acc={'clean': 0.5866666666666667, 'fgsm': 0.47333333333333333, 'pgd20': 0.4533333333333333, 'apgd20': 0.46, 'cw_linf': 0.43333333333333335, 'square_bbox': 0.52, 'transfer_bbox': 0.5}
+
+=== TRAIN tinyimagenet / standard ===
+[tinyimagenet/standard] epoch 1/4 loss=2.6306 clean_acc=0.060 pgd10_acc=0.050 time=8.6s
+[tinyimagenet/standard] epoch 2/4 loss=2.4080 clean_acc=0.120 pgd10_acc=0.030 time=8.4s
+[tinyimagenet/standard] epoch 3/4 loss=2.2755 clean_acc=0.260 pgd10_acc=0.040 time=8.1s
+[tinyimagenet/standard] epoch 4/4 loss=2.2037 clean_acc=0.280 pgd10_acc=0.050 time=8.0s
+    done in 33.3s  clean=0.280 pgd10=0.050
+
+=== TRAIN tinyimagenet / pgd_at ===
+[tinyimagenet/pgd_at] epoch 1/4 loss=2.6998 clean_acc=0.070 pgd10_acc=0.040 time=19.2s
+[tinyimagenet/pgd_at] epoch 2/4 loss=2.5758 clean_acc=0.120 pgd10_acc=0.050 time=19.9s
+[tinyimagenet/pgd_at] epoch 3/4 loss=2.5713 clean_acc=0.210 pgd10_acc=0.070 time=19.2s
+[tinyimagenet/pgd_at] epoch 4/4 loss=2.5331 clean_acc=0.200 pgd10_acc=0.060 time=18.9s
+    done in 77.4s  clean=0.200 pgd10=0.060
+
+=== TRAIN tinyimagenet / trades ===
+[tinyimagenet/trades] epoch 1/4 loss=2.6494 clean_acc=0.100 pgd10_acc=0.030 time=20.7s
+[tinyimagenet/trades] epoch 2/4 loss=2.5236 clean_acc=0.200 pgd10_acc=0.020 time=21.8s
+[tinyimagenet/trades] epoch 3/4 loss=2.4487 clean_acc=0.210 pgd10_acc=0.050 time=21.0s
+[tinyimagenet/trades] epoch 4/4 loss=2.4029 clean_acc=0.180 pgd10_acc=0.060 time=18.8s
+    done in 82.5s  clean=0.180 pgd10=0.060
+
+=== TRAIN tinyimagenet / mart ===
+[tinyimagenet/mart] epoch 1/4 loss=2.8309 clean_acc=0.120 pgd10_acc=0.020 time=21.2s
+[tinyimagenet/mart] epoch 2/4 loss=2.7787 clean_acc=0.250 pgd10_acc=0.050 time=19.4s
+[tinyimagenet/mart] epoch 3/4 loss=2.7215 clean_acc=0.260 pgd10_acc=0.050 time=19.8s
+[tinyimagenet/mart] epoch 4/4 loss=2.6822 clean_acc=0.250 pgd10_acc=0.050 time=20.2s
+    done in 80.8s  clean=0.250 pgd10=0.050
+
+=== TRAIN tinyimagenet / acat ===
+[tinyimagenet/acat] epoch 1/4 loss=2.5915 clean_acc=0.060 pgd10_acc=0.040 time=20.8s
+[tinyimagenet/acat] epoch 2/4 loss=2.4501 clean_acc=0.170 pgd10_acc=0.060 time=20.6s
+[tinyimagenet/acat] epoch 3/4 loss=2.3602 clean_acc=0.210 pgd10_acc=0.080 time=20.8s
+[tinyimagenet/acat] epoch 4/4 loss=2.3325 clean_acc=0.190 pgd10_acc=0.060 time=20.7s
+    done in 83.1s  clean=0.190 pgd10=0.060
+
+=== EVAL tinyimagenet / standard ===
+    done in 68.1s  MES=0.101  acc={'clean': 0.28, 'fgsm': 0.07, 'pgd20': 0.05, 'apgd20': 0.06, 'cw_linf': 0.05, 'square_bbox': 0.09, 'transfer_bbox': 0.05}
+
+=== EVAL tinyimagenet / pgd_at ===
+    done in 67.2s  MES=0.114  acc={'clean': 0.2, 'fgsm': 0.09, 'pgd20': 0.06, 'apgd20': 0.06, 'cw_linf': 0.05, 'square_bbox': 0.12, 'transfer_bbox': 0.1}
+
+=== EVAL tinyimagenet / trades ===
+    done in 68.7s  MES=0.104  acc={'clean': 0.18, 'fgsm': 0.08, 'pgd20': 0.06, 'apgd20': 0.06, 'cw_linf': 0.05, 'square_bbox': 0.11, 'transfer_bbox': 0.08}
+
+=== EVAL tinyimagenet / mart ===
+    done in 68.0s  MES=0.121  acc={'clean': 0.25, 'fgsm': 0.09, 'pgd20': 0.05, 'apgd20': 0.05, 'cw_linf': 0.04, 'square_bbox': 0.14, 'transfer_bbox': 0.11}
+
+=== EVAL tinyimagenet / acat ===
+    done in 67.1s  MES=0.113  acc={'clean': 0.19, 'fgsm': 0.08, 'pgd20': 0.06, 'apgd20': 0.06, 'cw_linf': 0.03, 'square_bbox': 0.15, 'transfer_bbox': 0.1}
+
+ALL RUNS COMPLETE

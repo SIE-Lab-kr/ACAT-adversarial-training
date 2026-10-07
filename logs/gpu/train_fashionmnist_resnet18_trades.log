@@ -1,0 +1,33 @@
+
+==== Wed Sep 23 22:21:14 2026 :: gpu/train.py --dataset fashionmnist --backbone resnet18 --method trades --tag trades --epochs 30 --out results_gpu
+{"epoch": 0, "train_loss": 0.8336, "epoch_time": 59.7274, "clean_acc": 0.805, "pgd10_acc": 0.725}
+{"epoch": 1, "train_loss": 0.5502, "epoch_time": 59.0816, "clean_acc": 0.831, "pgd10_acc": 0.775}
+{"epoch": 2, "train_loss": 0.4894, "epoch_time": 59.6056, "clean_acc": 0.848, "pgd10_acc": 0.818}
+{"epoch": 3, "train_loss": 0.4605, "epoch_time": 59.6017, "clean_acc": 0.849, "pgd10_acc": 0.784}
+{"epoch": 4, "train_loss": 0.4378, "epoch_time": 59.2968, "clean_acc": 0.878, "pgd10_acc": 0.829}
+{"epoch": 5, "train_loss": 0.4154, "epoch_time": 59.4667, "clean_acc": 0.869, "pgd10_acc": 0.82}
+{"epoch": 6, "train_loss": 0.3997, "epoch_time": 59.3207, "clean_acc": 0.867, "pgd10_acc": 0.831}
+{"epoch": 7, "train_loss": 0.3993, "epoch_time": 59.5811, "clean_acc": 0.88, "pgd10_acc": 0.81}
+{"epoch": 8, "train_loss": 0.3886, "epoch_time": 59.2378, "clean_acc": 0.879, "pgd10_acc": 0.832}
+{"epoch": 9, "train_loss": 0.3901, "epoch_time": 59.4021, "clean_acc": 0.862, "pgd10_acc": 0.814}
+{"epoch": 10, "train_loss": 0.3792, "epoch_time": 59.3358, "clean_acc": 0.885, "pgd10_acc": 0.824}
+{"epoch": 11, "train_loss": 0.3783, "epoch_time": 59.5185, "clean_acc": 0.907, "pgd10_acc": 0.866}
+{"epoch": 12, "train_loss": 0.3737, "epoch_time": 59.7432, "clean_acc": 0.902, "pgd10_acc": 0.846}
+{"epoch": 13, "train_loss": 0.3619, "epoch_time": 59.7177, "clean_acc": 0.902, "pgd10_acc": 0.863}
+{"epoch": 14, "train_loss": 0.3525, "epoch_time": 59.0535, "clean_acc": 0.903, "pgd10_acc": 0.869}
+{"epoch": 15, "train_loss": 0.3527, "epoch_time": 59.4738, "clean_acc": 0.893, "pgd10_acc": 0.857}
+{"epoch": 16, "train_loss": 0.3433, "epoch_time": 59.0819, "clean_acc": 0.896, "pgd10_acc": 0.85}
+{"epoch": 17, "train_loss": 0.337, "epoch_time": 59.5221, "clean_acc": 0.898, "pgd10_acc": 0.866}
+{"epoch": 18, "train_loss": 0.3329, "epoch_time": 59.2129, "clean_acc": 0.894, "pgd10_acc": 0.853}
+{"epoch": 19, "train_loss": 0.3211, "epoch_time": 59.5812, "clean_acc": 0.897, "pgd10_acc": 0.843}
+{"epoch": 20, "train_loss": 0.3125, "epoch_time": 58.9037, "clean_acc": 0.903, "pgd10_acc": 0.862}
+{"epoch": 21, "train_loss": 0.3025, "epoch_time": 59.5176, "clean_acc": 0.907, "pgd10_acc": 0.875}
+{"epoch": 22, "train_loss": 0.2925, "epoch_time": 59.1595, "clean_acc": 0.908, "pgd10_acc": 0.884}
+{"epoch": 23, "train_loss": 0.2839, "epoch_time": 59.5713, "clean_acc": 0.906, "pgd10_acc": 0.883}
+{"epoch": 24, "train_loss": 0.273, "epoch_time": 59.3748, "clean_acc": 0.918, "pgd10_acc": 0.884}
+{"epoch": 25, "train_loss": 0.2614, "epoch_time": 59.2433, "clean_acc": 0.926, "pgd10_acc": 0.88}
+{"epoch": 26, "train_loss": 0.2531, "epoch_time": 59.1399, "clean_acc": 0.924, "pgd10_acc": 0.894}
+{"epoch": 27, "train_loss": 0.2452, "epoch_time": 59.3353, "clean_acc": 0.92, "pgd10_acc": 0.889}
+{"epoch": 28, "train_loss": 0.241, "epoch_time": 59.1581, "clean_acc": 0.924, "pgd10_acc": 0.892}
+{"epoch": 29, "train_loss": 0.2383, "epoch_time": 59.4039, "clean_acc": 0.923, "pgd10_acc": 0.889}
+finished results_gpu\fashionmnist\resnet18\trades train_time=1781s

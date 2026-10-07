@@ -1,0 +1,17 @@
+dataset: svhn
+backbone: resnet18            # or WideResNet-34-10 for paper-matching numbers
+num_classes: 10
+img_size: 32
+epochs: 100
+batch_size: 128
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 5e-4
+lr_schedule: multistep [75, 90] gamma=0.1
+train_eps: 8/255
+train_alpha: 2/255
+train_steps: 10
+eval:
+  attacks: [fgsm, pgd20, apgd20, cw_linf, square_bbox, transfer_bbox]
+  eps: 8/255

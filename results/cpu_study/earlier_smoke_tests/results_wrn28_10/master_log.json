@@ -1,0 +1,77 @@
+{
+  "started": "2026-09-07 05:41:17",
+  "backbone": "wrn28_10",
+  "n_params_expected": 36479194,
+  "runs": [
+    {
+      "method": "standard",
+      "train_time_sec": 92.65770530700684,
+      "n_params": 36479194,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 3,
+      "final_clean_acc_inloop": 0.125,
+      "final_pgd_acc_inloop": 0.125,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.125,
+          "fgsm": 0.125,
+          "pgd20": 0.125
+        },
+        "asr": {
+          "fgsm": 0.875,
+          "pgd20": 0.875
+        },
+        "eval_time_sec": 87.68217515945435
+      }
+    },
+    {
+      "method": "pgd_at",
+      "train_time_sec": 132.58331513404846,
+      "n_params": 36479194,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 3,
+      "final_clean_acc_inloop": 0.0625,
+      "final_pgd_acc_inloop": 0.0625,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.15,
+          "fgsm": 0.1,
+          "pgd20": 0.1
+        },
+        "asr": {
+          "fgsm": 0.9,
+          "pgd20": 0.9
+        },
+        "eval_time_sec": 82.47159385681152
+      }
+    },
+    {
+      "method": "acat",
+      "train_time_sec": 180.44945359230042,
+      "n_params": 36479194,
+      "n_train": 64,
+      "n_test": 40,
+      "epochs": 3,
+      "final_clean_acc_inloop": 0.0625,
+      "final_pgd_acc_inloop": 0.0625,
+      "eval": {
+        "n_examples": 40,
+        "accuracy": {
+          "clean": 0.15,
+          "fgsm": 0.05,
+          "pgd20": 0.05
+        },
+        "asr": {
+          "fgsm": 0.95,
+          "pgd20": 0.95
+        },
+        "eval_time_sec": 85.20509147644043
+      }
+    }
+  ],
+  "finished": "2026-09-07 05:52:18"
+}

@@ -1,0 +1,14 @@
+
+==== Thu Sep 24 02:00:22 2026 :: gpu/evaluate.py --dataset tinyimagenet --backbone resnet18 --method mart --out results_gpu --surrogate vgg11
+E:\chungbuk NU\SIE Lab\Paper\neurocomputing\acat_gpu\gpu\evaluate.py:42: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  m.load_state_dict(torch.load(os.path.join(a.out, a.dataset, backbone, method, "model_final.pt"), map_location="cuda"))
+clean: {'acc': 0.56}  (3s)
+fgsm: 0.38666666666666666  (3s)
+pgd20: {'acc': 0.368}  (7s)
+cw_linf: 0.32  (11s)
+autoattack: 0.30399999022483826  (584s)
+square: 0.4026666666666667  (114s)
+transfer: 0.5293333333333333  (3s)
+eps_curve: {'0': 0.56, '1': 0.5373333333333333, '2': 0.5186666666666667, '4': 0.464, '6': 0.416, '8': 0.368, '10': 0.304, '12': 0.26266666666666666, '16': 0.18266666666666667}  (58s)
+steps_curve: {'1': 0.5186666666666667, '2': 0.48133333333333334, '5': 0.4093333333333333, '10': 0.368, '20': 0.368, '50': 0.368, '100': 0.368}  (67s)
+eval finished results_gpu\tinyimagenet\resnet18\mart

@@ -1,0 +1,399 @@
+Using device: cpu  (QUICK sanity-pass scale)
+
+=== TRAIN cifar10 / standard / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 2.2s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / smallcnn ===
+    eval done in 2.0s clean=0.375 pgd20=0.208 MES=0.305
+
+=== TRAIN cifar10 / pgd_at / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 7.8s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / smallcnn ===
+    eval done in 2.1s clean=0.208 pgd20=0.167 MES=0.193
+
+=== TRAIN cifar10 / trades / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 8.7s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / smallcnn ===
+    eval done in 1.6s clean=0.375 pgd20=0.250 MES=0.324
+
+=== TRAIN cifar10 / mart / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 6.5s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / smallcnn ===
+    eval done in 1.5s clean=0.208 pgd20=0.125 MES=0.176
+
+=== TRAIN cifar10 / acat / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 6.7s (n_params=0.141M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / smallcnn ===
+    eval done in 1.6s clean=0.042 pgd20=0.000 MES=0.028
+
+=== TRAIN cifar10 / standard / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 13.9s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / resnet18 ===
+    eval done in 14.5s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN cifar10 / pgd_at / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 73.5s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / resnet18 ===
+    eval done in 14.5s clean=0.208 pgd20=0.125 MES=0.167
+
+=== TRAIN cifar10 / trades / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 70.9s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / resnet18 ===
+    eval done in 13.9s clean=0.167 pgd20=0.167 MES=0.167
+
+=== TRAIN cifar10 / mart / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 69.3s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / resnet18 ===
+    eval done in 14.9s clean=0.167 pgd20=0.167 MES=0.167
+
+=== TRAIN cifar10 / acat / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 79.7s (n_params=11.174M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / resnet18 ===
+    eval done in 14.8s clean=0.000 pgd20=0.000 MES=0.000
+
+=== TRAIN cifar10 / standard / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 6.0s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / vgg11 ===
+    eval done in 5.7s clean=0.042 pgd20=0.000 MES=0.021
+
+=== TRAIN cifar10 / pgd_at / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 24.1s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / vgg11 ===
+    eval done in 5.7s clean=0.125 pgd20=0.125 MES=0.128
+
+=== TRAIN cifar10 / trades / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 27.0s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / vgg11 ===
+    eval done in 6.2s clean=0.167 pgd20=0.167 MES=0.167
+
+=== TRAIN cifar10 / mart / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 25.0s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / vgg11 ===
+    eval done in 5.7s clean=0.167 pgd20=0.167 MES=0.167
+
+=== TRAIN cifar10 / acat / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 36.1s (n_params=9.228M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / vgg11 ===
+    eval done in 5.9s clean=0.125 pgd20=0.125 MES=0.125
+
+=== TRAIN cifar10 / standard / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 2.2s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / standard / mobilenet ===
+    eval done in 2.3s clean=0.083 pgd20=0.000 MES=0.042
+
+=== TRAIN cifar10 / pgd_at / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 10.2s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / pgd_at / mobilenet ===
+    eval done in 2.5s clean=0.125 pgd20=0.000 MES=0.054
+
+=== TRAIN cifar10 / trades / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 12.5s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / trades / mobilenet ===
+    eval done in 2.4s clean=0.083 pgd20=0.000 MES=0.042
+
+=== TRAIN cifar10 / mart / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 11.2s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / mart / mobilenet ===
+    eval done in 2.2s clean=0.167 pgd20=0.167 MES=0.167
+
+=== TRAIN cifar10 / acat / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 11.6s (n_params=0.543M)
+=== FULL EVAL (6 attacks + MES) cifar10 / acat / mobilenet ===
+    eval done in 2.3s clean=0.083 pgd20=0.083 MES=0.080
+
+=== TRAIN fashionmnist / standard / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 1.4s (n_params=0.140M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / standard / smallcnn ===
+    eval done in 1.6s clean=0.458 pgd20=0.292 MES=0.395
+
+=== TRAIN fashionmnist / pgd_at / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 5.9s (n_params=0.140M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / pgd_at / smallcnn ===
+    eval done in 1.6s clean=0.333 pgd20=0.333 MES=0.333
+
+=== TRAIN fashionmnist / trades / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 6.7s (n_params=0.140M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / trades / smallcnn ===
+    eval done in 1.6s clean=0.375 pgd20=0.333 MES=0.361
+
+=== TRAIN fashionmnist / mart / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 6.0s (n_params=0.140M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / mart / smallcnn ===
+    eval done in 1.4s clean=0.625 pgd20=0.583 MES=0.603
+
+=== TRAIN fashionmnist / acat / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 5.9s (n_params=0.140M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / acat / smallcnn ===
+    eval done in 1.4s clean=0.500 pgd20=0.375 MES=0.446
+
+=== TRAIN fashionmnist / standard / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 13.3s (n_params=11.173M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / standard / resnet18 ===
+    eval done in 13.1s clean=0.083 pgd20=0.000 MES=0.056
+
+=== TRAIN fashionmnist / pgd_at / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 59.2s (n_params=11.173M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / pgd_at / resnet18 ===
+    eval done in 13.9s clean=0.292 pgd20=0.167 MES=0.223
+
+=== TRAIN fashionmnist / trades / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 87.4s (n_params=11.173M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / trades / resnet18 ===
+    eval done in 13.7s clean=0.375 pgd20=0.250 MES=0.315
+
+=== TRAIN fashionmnist / mart / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 63.5s (n_params=11.173M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / mart / resnet18 ===
+    eval done in 13.5s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN fashionmnist / acat / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 72.1s (n_params=11.173M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / acat / resnet18 ===
+    eval done in 14.5s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN fashionmnist / standard / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+Traceback (most recent call last):
+  File "/home/claude/acat_project/run_full_gpu_matrix.py", line 244, in <module>
+    main()
+  File "/home/claude/acat_project/run_full_gpu_matrix.py", line 184, in main
+    model, history, class_names, test_ds = run_training(
+                                           ^^^^^^^^^^^^^
+  File "/home/claude/acat_project/src/train.py", line 149, in run_training
+    loss, logs = method_fn(model, x, y, idx, ema_tracker, step_state, cfg)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/acat_project/src/methods.py", line 27, in standard_loss
+    logits = model(x)
+             ^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/acat_project/src/models.py", line 320, in forward
+    return self.backbone((x - self.mean) / self.std)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/acat_project/src/models.py", line 226, in forward
+    return self.classifier(self.forward_features(x))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/acat_project/src/models.py", line 223, in forward_features
+    return self.features(x).flatten(1)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/pooling.py", line 224, in forward
+    return F.max_pool2d(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/_jit_internal.py", line 637, in fn
+    return if_false(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/functional.py", line 837, in _max_pool2d
+    return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Given input size: (512x1x1). Calculated output size: (512x0x0). Output size is too small
+Using device: cpu  (QUICK sanity-pass scale)
+SKIP (already done): ('cifar10', 'smallcnn', 'standard')
+SKIP (already done): ('cifar10', 'smallcnn', 'pgd_at')
+SKIP (already done): ('cifar10', 'smallcnn', 'trades')
+SKIP (already done): ('cifar10', 'smallcnn', 'mart')
+SKIP (already done): ('cifar10', 'smallcnn', 'acat')
+SKIP (already done): ('cifar10', 'resnet18', 'standard')
+SKIP (already done): ('cifar10', 'resnet18', 'pgd_at')
+SKIP (already done): ('cifar10', 'resnet18', 'trades')
+SKIP (already done): ('cifar10', 'resnet18', 'mart')
+SKIP (already done): ('cifar10', 'resnet18', 'acat')
+SKIP (already done): ('cifar10', 'vgg11', 'standard')
+SKIP (already done): ('cifar10', 'vgg11', 'pgd_at')
+SKIP (already done): ('cifar10', 'vgg11', 'trades')
+SKIP (already done): ('cifar10', 'vgg11', 'mart')
+SKIP (already done): ('cifar10', 'vgg11', 'acat')
+SKIP (already done): ('cifar10', 'mobilenet', 'standard')
+SKIP (already done): ('cifar10', 'mobilenet', 'pgd_at')
+SKIP (already done): ('cifar10', 'mobilenet', 'trades')
+SKIP (already done): ('cifar10', 'mobilenet', 'mart')
+SKIP (already done): ('cifar10', 'mobilenet', 'acat')
+SKIP (already done): ('fashionmnist', 'smallcnn', 'standard')
+SKIP (already done): ('fashionmnist', 'smallcnn', 'pgd_at')
+SKIP (already done): ('fashionmnist', 'smallcnn', 'trades')
+SKIP (already done): ('fashionmnist', 'smallcnn', 'mart')
+SKIP (already done): ('fashionmnist', 'smallcnn', 'acat')
+SKIP (already done): ('fashionmnist', 'resnet18', 'standard')
+SKIP (already done): ('fashionmnist', 'resnet18', 'pgd_at')
+SKIP (already done): ('fashionmnist', 'resnet18', 'trades')
+SKIP (already done): ('fashionmnist', 'resnet18', 'mart')
+SKIP (already done): ('fashionmnist', 'resnet18', 'acat')
+
+=== TRAIN fashionmnist / standard / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 5.8s (n_params=9.227M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / standard / vgg11 ===
+    eval done in 5.1s clean=0.125 pgd20=0.083 MES=0.109
+
+=== TRAIN fashionmnist / pgd_at / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 22.6s (n_params=9.227M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / pgd_at / vgg11 ===
+    eval done in 5.2s clean=0.167 pgd20=0.083 MES=0.123
+
+=== TRAIN fashionmnist / trades / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 27.1s (n_params=9.227M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / trades / vgg11 ===
+    eval done in 5.2s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN fashionmnist / mart / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 24.9s (n_params=9.227M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / mart / vgg11 ===
+    eval done in 5.4s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN fashionmnist / acat / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 26.5s (n_params=9.227M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / acat / vgg11 ===
+    eval done in 5.3s clean=0.208 pgd20=0.208 MES=0.208
+
+=== TRAIN fashionmnist / standard / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 2.1s (n_params=0.542M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / standard / mobilenet ===
+    eval done in 2.2s clean=0.167 pgd20=0.125 MES=0.152
+
+=== TRAIN fashionmnist / pgd_at / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 8.4s (n_params=0.542M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / pgd_at / mobilenet ===
+    eval done in 2.0s clean=0.333 pgd20=0.125 MES=0.251
+
+=== TRAIN fashionmnist / trades / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 10.0s (n_params=0.542M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / trades / mobilenet ===
+    eval done in 1.9s clean=0.417 pgd20=0.125 MES=0.296
+
+=== TRAIN fashionmnist / mart / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 9.4s (n_params=0.542M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / mart / mobilenet ===
+    eval done in 2.0s clean=0.458 pgd20=0.208 MES=0.340
+
+=== TRAIN fashionmnist / acat / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 9.5s (n_params=0.542M)
+=== FULL EVAL (6 attacks + MES) fashionmnist / acat / mobilenet ===
+    eval done in 1.9s clean=0.208 pgd20=0.167 MES=0.197
+
+=== TRAIN tinyimagenet / standard / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 3.5s (n_params=0.142M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / standard / smallcnn ===
+    eval done in 4.7s clean=0.125 pgd20=0.083 MES=0.105
+
+=== TRAIN tinyimagenet / pgd_at / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 17.2s (n_params=0.142M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / pgd_at / smallcnn ===
+    eval done in 4.7s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / trades / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 20.6s (n_params=0.142M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / trades / smallcnn ===
+    eval done in 5.1s clean=0.167 pgd20=0.083 MES=0.117
+
+=== TRAIN tinyimagenet / mart / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 19.5s (n_params=0.142M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / mart / smallcnn ===
+    eval done in 4.5s clean=0.000 pgd20=0.000 MES=0.000
+
+=== TRAIN tinyimagenet / acat / smallcnn (epochs=4, batch_size=8, device=cpu) ===
+    train done in 19.7s (n_params=0.142M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / acat / smallcnn ===
+    eval done in 4.8s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / standard / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 43.3s (n_params=11.177M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / standard / resnet18 ===
+    eval done in 45.4s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN tinyimagenet / pgd_at / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 218.6s (n_params=11.177M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / pgd_at / resnet18 ===
+    eval done in 44.5s clean=0.042 pgd20=0.000 MES=0.012
+
+=== TRAIN tinyimagenet / trades / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 261.5s (n_params=11.177M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / trades / resnet18 ===
+    eval done in 44.4s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / mart / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 215.4s (n_params=11.177M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / mart / resnet18 ===
+    eval done in 45.0s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / acat / resnet18 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 226.8s (n_params=11.177M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / acat / resnet18 ===
+    eval done in 46.4s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / standard / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 14.4s (n_params=9.231M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / standard / vgg11 ===
+    eval done in 16.5s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN tinyimagenet / pgd_at / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 68.9s (n_params=9.231M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / pgd_at / vgg11 ===
+    eval done in 16.7s clean=0.125 pgd20=0.125 MES=0.125
+
+=== TRAIN tinyimagenet / trades / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 80.4s (n_params=9.231M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / trades / vgg11 ===
+    eval done in 16.5s clean=0.000 pgd20=0.000 MES=0.000
+
+=== TRAIN tinyimagenet / mart / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 70.6s (n_params=9.231M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / mart / vgg11 ===
+    eval done in 16.8s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / acat / vgg11 (epochs=4, batch_size=8, device=cpu) ===
+    train done in 75.8s (n_params=9.231M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / acat / vgg11 ===
+    eval done in 16.0s clean=0.042 pgd20=0.042 MES=0.042
+
+=== TRAIN tinyimagenet / standard / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 5.8s (n_params=0.546M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / standard / mobilenet ===
+    eval done in 6.8s clean=0.125 pgd20=0.042 MES=0.089
+
+=== TRAIN tinyimagenet / pgd_at / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 27.4s (n_params=0.546M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / pgd_at / mobilenet ===
+    eval done in 6.8s clean=0.083 pgd20=0.042 MES=0.061
+
+=== TRAIN tinyimagenet / trades / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 35.9s (n_params=0.546M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / trades / mobilenet ===
+    eval done in 7.0s clean=0.000 pgd20=0.000 MES=0.000
+
+=== TRAIN tinyimagenet / mart / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 30.6s (n_params=0.546M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / mart / mobilenet ===
+    eval done in 6.1s clean=0.083 pgd20=0.083 MES=0.083
+
+=== TRAIN tinyimagenet / acat / mobilenet (epochs=4, batch_size=8, device=cpu) ===
+    train done in 30.7s (n_params=0.546M)
+=== FULL EVAL (6 attacks + MES) tinyimagenet / acat / mobilenet ===
+    eval done in 6.9s clean=0.083 pgd20=0.042 MES=0.067
+Traceback (most recent call last):
+  File "/home/claude/acat_project/run_full_gpu_matrix.py", line 244, in <module>
+    main()
+  File "/home/claude/acat_project/run_full_gpu_matrix.py", line 236, in main
+    row["COR_vs_pgd_at"] = round(row["train_time_sec"] / pgd_at["train_time_sec"], 3)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'

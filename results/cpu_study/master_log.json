@@ -1,0 +1,706 @@
+{
+  "started": "2026-09-07 01:46:34",
+  "runs": [
+    {
+      "dataset": "cifar10",
+      "method": "standard",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 94.84801936149597,
+      "status": "ok",
+      "final_clean_acc": 0.4427083333333333,
+      "final_pgd10_acc": 0.005208333333333333
+    },
+    {
+      "dataset": "cifar10",
+      "method": "pgd_at",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 212.52427554130554,
+      "status": "ok",
+      "final_clean_acc": 0.328125,
+      "final_pgd10_acc": 0.18229166666666666
+    },
+    {
+      "dataset": "cifar10",
+      "method": "trades",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 207.7389271259308,
+      "status": "ok",
+      "final_clean_acc": 0.3697916666666667,
+      "final_pgd10_acc": 0.140625
+    },
+    {
+      "dataset": "cifar10",
+      "method": "mart",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 185.89001297950745,
+      "status": "ok",
+      "final_clean_acc": 0.3125,
+      "final_pgd10_acc": 0.203125
+    },
+    {
+      "dataset": "cifar10",
+      "method": "acat",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 213.29263734817505,
+      "status": "ok",
+      "final_clean_acc": 0.34375,
+      "final_pgd10_acc": 0.15104166666666666
+    },
+    {
+      "dataset": "cifar10",
+      "method": "standard",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 24.91891098022461,
+      "status": "ok",
+      "MES": 0.07118643912668776,
+      "accuracy": {
+        "clean": 0.42,
+        "fgsm": 0.02,
+        "pgd20": 0.006666666666666667,
+        "apgd20": 0.006666666666666667,
+        "cw_linf": 0.006666666666666667,
+        "square_bbox": 0.18666666666666668,
+        "transfer_bbox": 0.006666666666666667
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "pgd_at",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 24.88142418861389,
+      "status": "ok",
+      "MES": 0.21775640554533418,
+      "accuracy": {
+        "clean": 0.2866666666666667,
+        "fgsm": 0.15333333333333332,
+        "pgd20": 0.14,
+        "apgd20": 0.14,
+        "cw_linf": 0.11333333333333333,
+        "square_bbox": 0.24,
+        "transfer_bbox": 0.26666666666666666
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "trades",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 24.64790391921997,
+      "status": "ok",
+      "MES": 0.21155159189911435,
+      "accuracy": {
+        "clean": 0.3466666666666667,
+        "fgsm": 0.12,
+        "pgd20": 0.10666666666666667,
+        "apgd20": 0.10666666666666667,
+        "cw_linf": 0.06,
+        "square_bbox": 0.24,
+        "transfer_bbox": 0.28
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "mart",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 25.194355487823486,
+      "status": "ok",
+      "MES": 0.21172528834457055,
+      "accuracy": {
+        "clean": 0.26666666666666666,
+        "fgsm": 0.17333333333333334,
+        "pgd20": 0.16,
+        "apgd20": 0.16,
+        "cw_linf": 0.08666666666666667,
+        "square_bbox": 0.22666666666666666,
+        "transfer_bbox": 0.24666666666666667
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "acat",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 24.78298020362854,
+      "status": "ok",
+      "MES": 0.21529953470577004,
+      "accuracy": {
+        "clean": 0.32,
+        "fgsm": 0.14666666666666667,
+        "pgd20": 0.12666666666666668,
+        "apgd20": 0.13333333333333333,
+        "cw_linf": 0.08,
+        "square_bbox": 0.23333333333333334,
+        "transfer_bbox": 0.25333333333333335
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "standard",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 86.10523653030396,
+      "status": "ok",
+      "final_clean_acc": 0.4322916666666667,
+      "final_pgd10_acc": 0.0
+    },
+    {
+      "dataset": "cifar10",
+      "method": "pgd_at",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 208.28559517860413,
+      "status": "ok",
+      "final_clean_acc": 0.328125,
+      "final_pgd10_acc": 0.17708333333333334
+    },
+    {
+      "dataset": "cifar10",
+      "method": "trades",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 199.75331735610962,
+      "status": "ok",
+      "final_clean_acc": 0.296875,
+      "final_pgd10_acc": 0.10416666666666667
+    },
+    {
+      "dataset": "cifar10",
+      "method": "mart",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 196.98248028755188,
+      "status": "ok",
+      "final_clean_acc": 0.3125,
+      "final_pgd10_acc": 0.16666666666666666
+    },
+    {
+      "dataset": "cifar10",
+      "method": "acat",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 210.01373887062073,
+      "status": "ok",
+      "final_clean_acc": 0.3645833333333333,
+      "final_pgd10_acc": 0.13020833333333334
+    },
+    {
+      "dataset": "cifar10",
+      "method": "standard",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 23.856006622314453,
+      "status": "ok",
+      "MES": 0.07283581926486973,
+      "accuracy": {
+        "clean": 0.4066666666666667,
+        "fgsm": 0.02666666666666667,
+        "pgd20": 0.0,
+        "apgd20": 0.0,
+        "cw_linf": 0.0,
+        "square_bbox": 0.21333333333333335,
+        "transfer_bbox": 0.0
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "pgd_at",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 23.412353515625,
+      "status": "ok",
+      "MES": 0.2089552192024951,
+      "accuracy": {
+        "clean": 0.28,
+        "fgsm": 0.15333333333333332,
+        "pgd20": 0.15333333333333332,
+        "apgd20": 0.14666666666666667,
+        "cw_linf": 0.09333333333333334,
+        "square_bbox": 0.2,
+        "transfer_bbox": 0.25333333333333335
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "trades",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 23.579734325408936,
+      "status": "ok",
+      "MES": 0.16079839886072178,
+      "accuracy": {
+        "clean": 0.25333333333333335,
+        "fgsm": 0.1,
+        "pgd20": 0.08,
+        "apgd20": 0.08,
+        "cw_linf": 0.05333333333333334,
+        "square_bbox": 0.18666666666666668,
+        "transfer_bbox": 0.20666666666666667
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "mart",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 23.030771732330322,
+      "status": "ok",
+      "MES": 0.19199999539200013,
+      "accuracy": {
+        "clean": 0.26666666666666666,
+        "fgsm": 0.14666666666666667,
+        "pgd20": 0.13333333333333333,
+        "apgd20": 0.13333333333333333,
+        "cw_linf": 0.07333333333333333,
+        "square_bbox": 0.2,
+        "transfer_bbox": 0.21333333333333335
+      }
+    },
+    {
+      "dataset": "cifar10",
+      "method": "acat",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 23.607053518295288,
+      "status": "ok",
+      "MES": 0.21777777333333348,
+      "accuracy": {
+        "clean": 0.32666666666666666,
+        "fgsm": 0.16,
+        "pgd20": 0.12666666666666668,
+        "apgd20": 0.12,
+        "cw_linf": 0.1,
+        "square_bbox": 0.21333333333333335,
+        "transfer_bbox": 0.26
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "standard",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 48.26672577857971,
+      "status": "ok",
+      "final_clean_acc": 0.71875,
+      "final_pgd10_acc": 0.3645833333333333
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "pgd_at",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 129.16683411598206,
+      "status": "ok",
+      "final_clean_acc": 0.6875,
+      "final_pgd10_acc": 0.6197916666666666
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "trades",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 157.2717411518097,
+      "status": "ok",
+      "final_clean_acc": 0.703125,
+      "final_pgd10_acc": 0.609375
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "mart",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 152.43239617347717,
+      "status": "ok",
+      "final_clean_acc": 0.6927083333333334,
+      "final_pgd10_acc": 0.625
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "acat",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 156.1776192188263,
+      "status": "ok",
+      "final_clean_acc": 0.6979166666666666,
+      "final_pgd10_acc": 0.5885416666666666
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "standard",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 16.157357931137085,
+      "status": "ok",
+      "MES": 0.5197633089961836,
+      "accuracy": {
+        "clean": 0.72,
+        "fgsm": 0.46,
+        "pgd20": 0.34,
+        "apgd20": 0.36,
+        "cw_linf": 0.3466666666666667,
+        "square_bbox": 0.5933333333333334,
+        "transfer_bbox": 0.34
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "pgd_at",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 16.725361347198486,
+      "status": "ok",
+      "MES": 0.6485657206982394,
+      "accuracy": {
+        "clean": 0.6733333333333333,
+        "fgsm": 0.62,
+        "pgd20": 0.62,
+        "apgd20": 0.62,
+        "cw_linf": 0.62,
+        "square_bbox": 0.64,
+        "transfer_bbox": 0.6333333333333333
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "trades",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 16.639362573623657,
+      "status": "ok",
+      "MES": 0.6531752702128896,
+      "accuracy": {
+        "clean": 0.7,
+        "fgsm": 0.6,
+        "pgd20": 0.6,
+        "apgd20": 0.6,
+        "cw_linf": 0.5866666666666667,
+        "square_bbox": 0.64,
+        "transfer_bbox": 0.6466666666666666
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "mart",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 17.054319143295288,
+      "status": "ok",
+      "MES": 0.6522458177256762,
+      "accuracy": {
+        "clean": 0.6866666666666666,
+        "fgsm": 0.6133333333333333,
+        "pgd20": 0.6133333333333333,
+        "apgd20": 0.6066666666666667,
+        "cw_linf": 0.6066666666666667,
+        "square_bbox": 0.6333333333333333,
+        "transfer_bbox": 0.6533333333333333
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "acat",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 16.595267295837402,
+      "status": "ok",
+      "MES": 0.6538071016207581,
+      "accuracy": {
+        "clean": 0.7,
+        "fgsm": 0.6066666666666667,
+        "pgd20": 0.5866666666666667,
+        "apgd20": 0.5866666666666667,
+        "cw_linf": 0.58,
+        "square_bbox": 0.66,
+        "transfer_bbox": 0.66
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "standard",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 46.664289236068726,
+      "status": "ok",
+      "final_clean_acc": 0.7552083333333334,
+      "final_pgd10_acc": 0.4322916666666667
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "pgd_at",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 131.70627856254578,
+      "status": "ok",
+      "final_clean_acc": 0.7135416666666666,
+      "final_pgd10_acc": 0.640625
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "trades",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 159.79437494277954,
+      "status": "ok",
+      "final_clean_acc": 0.7395833333333334,
+      "final_pgd10_acc": 0.6458333333333334
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "mart",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 152.30988144874573,
+      "status": "ok",
+      "final_clean_acc": 0.7083333333333334,
+      "final_pgd10_acc": 0.6614583333333334
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "acat",
+      "seed": 123,
+      "phase": "train",
+      "elapsed_sec": 160.73691606521606,
+      "status": "ok",
+      "final_clean_acc": 0.7135416666666666,
+      "final_pgd10_acc": 0.625
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "standard",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 16.74643301963806,
+      "status": "ok",
+      "MES": 0.5958399952332801,
+      "accuracy": {
+        "clean": 0.76,
+        "fgsm": 0.5,
+        "pgd20": 0.44,
+        "apgd20": 0.4533333333333333,
+        "cw_linf": 0.44,
+        "square_bbox": 0.6666666666666666,
+        "transfer_bbox": 0.44
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "pgd_at",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 16.09195637702942,
+      "status": "ok",
+      "MES": 0.7061006239348226,
+      "accuracy": {
+        "clean": 0.7266666666666667,
+        "fgsm": 0.6866666666666666,
+        "pgd20": 0.68,
+        "apgd20": 0.68,
+        "cw_linf": 0.6733333333333333,
+        "square_bbox": 0.7,
+        "transfer_bbox": 0.7
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "trades",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 16.451704025268555,
+      "status": "ok",
+      "MES": 0.7281645037673417,
+      "accuracy": {
+        "clean": 0.76,
+        "fgsm": 0.6866666666666666,
+        "pgd20": 0.68,
+        "apgd20": 0.68,
+        "cw_linf": 0.6733333333333333,
+        "square_bbox": 0.74,
+        "transfer_bbox": 0.7333333333333333
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "mart",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 16.506075382232666,
+      "status": "ok",
+      "MES": 0.716860310003814,
+      "accuracy": {
+        "clean": 0.7333333333333333,
+        "fgsm": 0.7,
+        "pgd20": 0.6933333333333334,
+        "apgd20": 0.6933333333333334,
+        "cw_linf": 0.68,
+        "square_bbox": 0.72,
+        "transfer_bbox": 0.72
+      }
+    },
+    {
+      "dataset": "fashionmnist",
+      "method": "acat",
+      "seed": 123,
+      "phase": "eval",
+      "elapsed_sec": 15.924954175949097,
+      "status": "ok",
+      "MES": 0.7026571904836243,
+      "accuracy": {
+        "clean": 0.7333333333333333,
+        "fgsm": 0.6666666666666666,
+        "pgd20": 0.66,
+        "apgd20": 0.66,
+        "cw_linf": 0.6533333333333333,
+        "square_bbox": 0.7,
+        "transfer_bbox": 0.7066666666666667
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "standard",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 96.42266654968262,
+      "status": "ok",
+      "final_clean_acc": 0.29,
+      "final_pgd10_acc": 0.04
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "pgd_at",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 221.25081515312195,
+      "status": "ok",
+      "final_clean_acc": 0.26,
+      "final_pgd10_acc": 0.08
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "trades",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 209.31762623786926,
+      "status": "ok",
+      "final_clean_acc": 0.24,
+      "final_pgd10_acc": 0.09
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "mart",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 208.51189136505127,
+      "status": "ok",
+      "final_clean_acc": 0.27,
+      "final_pgd10_acc": 0.12
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "acat",
+      "seed": 42,
+      "phase": "train",
+      "elapsed_sec": 233.69786858558655,
+      "status": "ok",
+      "final_clean_acc": 0.26,
+      "final_pgd10_acc": 0.11
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "standard",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 77.05063509941101,
+      "status": "ok",
+      "MES": 0.09942856858775519,
+      "accuracy": {
+        "clean": 0.29,
+        "fgsm": 0.07,
+        "pgd20": 0.04,
+        "apgd20": 0.04,
+        "cw_linf": 0.03,
+        "square_bbox": 0.14,
+        "transfer_bbox": 0.04
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "pgd_at",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 75.07908821105957,
+      "status": "ok",
+      "MES": 0.14958903699756065,
+      "accuracy": {
+        "clean": 0.26,
+        "fgsm": 0.11,
+        "pgd20": 0.08,
+        "apgd20": 0.08,
+        "cw_linf": 0.07,
+        "square_bbox": 0.15,
+        "transfer_bbox": 0.14
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "trades",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 75.67546582221985,
+      "status": "ok",
+      "MES": 0.13782177808450166,
+      "accuracy": {
+        "clean": 0.24,
+        "fgsm": 0.1,
+        "pgd20": 0.09,
+        "apgd20": 0.09,
+        "cw_linf": 0.07,
+        "square_bbox": 0.13,
+        "transfer_bbox": 0.1
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "mart",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 75.66044116020203,
+      "status": "ok",
+      "MES": 0.16932202959350773,
+      "accuracy": {
+        "clean": 0.27,
+        "fgsm": 0.12,
+        "pgd20": 0.11,
+        "apgd20": 0.11,
+        "cw_linf": 0.08,
+        "square_bbox": 0.16,
+        "transfer_bbox": 0.16
+      }
+    },
+    {
+      "dataset": "tinyimagenet",
+      "method": "acat",
+      "seed": 42,
+      "phase": "eval",
+      "elapsed_sec": 76.6620922088623,
+      "status": "ok",
+      "MES": 0.17333332888888903,
+      "accuracy": {
+        "clean": 0.26,
+        "fgsm": 0.12,
+        "pgd20": 0.1,
+        "apgd20": 0.1,
+        "cw_linf": 0.07,
+        "square_bbox": 0.21,
+        "transfer_bbox": 0.18
+      }
+    }
+  ],
+  "finished": "2026-09-07 03:07:40"
+}

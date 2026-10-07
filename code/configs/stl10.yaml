@@ -1,0 +1,17 @@
+dataset: stl10
+backbone: resnet18
+num_classes: 10
+img_size: 96
+epochs: 80
+batch_size: 64
+optimizer: sgd
+lr: 0.05
+momentum: 0.9
+weight_decay: 5e-4
+lr_schedule: cosine
+train_eps: 8/255
+train_alpha: 2/255
+train_steps: 10
+eval:
+  attacks: [fgsm, pgd20, apgd20, cw_linf, square_bbox, transfer_bbox]
+  eps: 8/255

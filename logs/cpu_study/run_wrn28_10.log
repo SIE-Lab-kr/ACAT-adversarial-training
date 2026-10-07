@@ -1,0 +1,29 @@
+
+=== TRAIN cifar10 / standard / WideResNet-28-10 ===
+[cifar10/standard] epoch 1/3 loss=2.3699 clean_acc=0.062 pgd10_acc=0.062 time=24.5s
+[cifar10/standard] epoch 2/3 loss=1.9723 clean_acc=0.062 pgd10_acc=0.062 time=31.8s
+[cifar10/standard] epoch 3/3 loss=1.7165 clean_acc=0.125 pgd10_acc=0.125 time=20.6s
+    train done in 92.7s (n_params=36.48M)
+=== EVAL cifar10 / standard / WideResNet-28-10 ===
+    eval done in 87.7s clean=0.125 fgsm=0.125 pgd20=0.125 ASR_fgsm=0.875 ASR_pgd20=0.875
+
+=== TRAIN cifar10 / pgd_at / WideResNet-28-10 ===
+[cifar10/pgd_at] epoch 1/3 loss=2.3977 clean_acc=0.062 pgd10_acc=0.062 time=43.7s
+[cifar10/pgd_at] epoch 2/3 loss=2.2265 clean_acc=0.125 pgd10_acc=0.125 time=43.8s
+[cifar10/pgd_at] epoch 3/3 loss=2.0761 clean_acc=0.062 pgd10_acc=0.062 time=43.7s
+    train done in 132.6s (n_params=36.48M)
+=== EVAL cifar10 / pgd_at / WideResNet-28-10 ===
+    eval done in 82.5s clean=0.150 fgsm=0.100 pgd20=0.100 ASR_fgsm=0.900 ASR_pgd20=0.900
+
+=== TRAIN cifar10 / acat / WideResNet-28-10 ===
+[cifar10/acat] epoch 1/3 loss=2.0710 clean_acc=0.062 pgd10_acc=0.062 time=61.9s
+[cifar10/acat] epoch 2/3 loss=2.2164 clean_acc=0.188 pgd10_acc=0.188 time=59.1s
+[cifar10/acat] epoch 3/3 loss=1.9831 clean_acc=0.062 pgd10_acc=0.062 time=57.7s
+    train done in 180.4s (n_params=36.48M)
+=== EVAL cifar10 / acat / WideResNet-28-10 ===
+    eval done in 85.2s clean=0.150 fgsm=0.050 pgd20=0.050 ASR_fgsm=0.950 ASR_pgd20=0.950
+
+ALL WRN-28-10 SMOKE-TEST RUNS COMPLETE
+standard clean=0.125 fgsm=0.125 pgd20=0.125 train_time=92.7s
+pgd_at clean=0.150 fgsm=0.100 pgd20=0.100 train_time=132.6s
+acat clean=0.150 fgsm=0.050 pgd20=0.050 train_time=180.4s
