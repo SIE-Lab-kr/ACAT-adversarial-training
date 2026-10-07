@@ -41,22 +41,6 @@ The WideResNet-28-10 results trained for 150 epochs that are reported in the mai
 (CIFAR-10/100 comparison with TRADES, MART and SPAT, and the two-signal ablation) were produced with a separate
 implementation that is **not** part of this repository, and they have not been reproduced with the code here.
 
-## Summary of the GPU-study results (accuracy %, CIFAR-10)
-
-| Backbone | Method | Clean | PGD-20 | AutoAttack | Square | Transfer |
-|---|---|---|---|---|---|---|
-| ResNet-18 | PGD-AT | 82.04 | 50.11 | 46.00 | 58.20 | 79.32 |
-| ResNet-18 | TRADES | 80.34 | 51.13 | 46.70 | 57.50 | 77.52 |
-| ResNet-18 | MART | 77.67 | 53.63 | 46.30 | 57.10 | 75.32 |
-| ResNet-18 | ACAT (β = 0.5) | **86.63** | 42.06 | 37.80 | 57.60 | **82.00** |
-| ResNet-18 | ACAT (β = 1) | 82.25 | 50.37 | 45.60 | 58.30 | 79.55 |
-| WRN-28-10 | PGD-AT | 86.91 | 51.75 | 48.90 | 61.80 | 85.44 |
-| WRN-28-10 | TRADES | 84.59 | 54.55 | 51.90 | 62.30 | 83.17 |
-| WRN-28-10 | ACAT (β = 0.5) | **87.22** | 48.09 | 44.30 | 62.10 | 85.34 |
-
-Under this 30-epoch protocol, ACAT with β = 0.5 gives the highest clean accuracy and the best robustness at small
-budgets (ε ≤ 2/255 on VGG-11 and ResNet-18), but lower white-box robustness at ε = 8/255; with β = 1 it performs on
-par with PGD-AT. Complete numbers for every run are in `results/tables/` and `results/gpu/`.
 
 ## Reproducing the GPU study
 
