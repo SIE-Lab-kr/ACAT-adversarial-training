@@ -3,7 +3,7 @@
 Code, results, logs and figures for the manuscript
 
 > **Adaptive Curriculum Adversarial Training: Dynamically Balancing Sample Hardness and Boundary Proximity for Robustness**
-> Zhengyu Shang, Manzoor Hussain, Ahmed D. M. Ibrahum, Jang-Eui Hong
+> Ahmed D. M. Ibrahum\*, Zhengyu Shang\*, Manzoor Hussain, Jang-Eui Hong (\* equal contribution)
 > Software Intelligence Engineering Lab, Chungbuk National University (submitted to the *Journal of Information Security and Applications*)
 
 ACAT reweights adversarial-training samples with two signals computed from one forward pass — a margin-based
